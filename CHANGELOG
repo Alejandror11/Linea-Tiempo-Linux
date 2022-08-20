@@ -1,0 +1,599 @@
+Linux Distribution Timeline | CHANGELOGS
+========================================
+
+22.10 2022.10.xx
+* Discontinued: RancherOS (thanks to mcen1)
+* Discontinued: Chakra
+
+21.10 2021.10.23
+* Added: EuroLinux (thanks to jakub-olczyk, AlexBaranowski and Barnabasz)
+* Added: postmarketOS (thanks to krkk)
+* Blacklisted: bundled with hardware only distros (CromeOS, etc)
+* Blacklisted: commercial only (no sources) embedded distros (ELinOS, etc)
+* Continued: Lunar Linux (thanks to dagbrown)
+* Discontinued: OpenELEC
+* Discontinued: Qomo (thanks to OkayPJ)
+* Discontinued: SteamOS (the old Debian based)
+* Discontinued: Rocks, TENS
+* Rebased: OSMC (Debian since 2015.06.28, thanks to jb2cool)
+* Rebased: AV Linux (MX Linux since 2020.11.25)
+* Rebased: Finnix (Debian since 2005.10.23)
+* Fixed: SUSE and openSUSE history
+
+20.10 2020.10.25
+* Added: Ataraxia Linux (thanks to Protonesso)
+* Blacklisted: Swift (celebrity related distro)
+* Blacklisted: ChaletOS (too short lifetime)
+* Blacklisted: OpenNode (no distro found)
+* Blacklisted: Gnu-HALO (too short lifetime)
+* Blacklisted: How-Tux (too short lifetime)
+* Blacklisted: Satanic Edition (too short lifetime)
+* Blacklisted: Mamona (too short lifetime)
+* Blacklisted: Garuda (too short lifetime)
+* Blacklisted: Fusion (too short lifetime)
+* Blacklisted: FoX (too short lifetime)
+* Blacklisted: HP Secure (too short lifetime)
+* Blacklisted: AsianLinux (too short lifetime)
+* Blacklisted: epiOS (too short lifetime)
+* Blacklisted: Apricity (too short lifetime)
+* Blacklisted: MorpheusArch Linux (too short lifetime)
+* Blacklisted: SwagArch GNU/Linux (too short lifetime)
+* Blacklisted: Maui Linux (too short lifetime)
+* Blacklisted: Handy Linux (too short lifetime)
+* Blacklisted: Impi (too short lifetime)
+* Blacklisted: Xebian (too short lifetime)
+* Blacklisted: Bluewall (too short lifetime)
+* Blacklisted: Amber (too short lifetime)
+* Blacklisted: Euronode (too short lifetime)
+* Blacklisted: Polippix (too short lifetime)
+* Blacklisted: ZoneCD (too short lifetime)
+* Blacklisted: Armed (too short lifetime)
+* Blacklisted: Happy Linux (too short lifetime)
+* Blacklisted: EvilEntity (too short lifetime)
+* Blacklisted: Storm (too short lifetime)
+* Blacklisted: Ultrapenguin (too short lifetime)
+* Blacklisted: SuperRescue (too short lifetime)
+* Continued: Red Flag (thanks to xingjiapeng)
+* Continued: Finnix
+* Continued: Draco
+* Discontinued: Point Linux (thanks to xingjiapeng)
+* Discontinued: Viperr, Lunar Linux, Sonar GNU/Linux
+* Discontinued: Tanglu
+* Discontinued: Container Linux (previously CoreOS)
+* Discontinued: Antergos (thanks to pushkar-bharambe)
+* Discontinued: Flint OS (merged into CloudReady)
+* Discontinued: Superb Mini Server, Christian Edition
+* Discontinued: Ulteo, DEFT, Voyage Linux, UHU
+* Discontinued: Semplice, LinuxBBQ, wattOS, UberStudent
+* Rebased: SUSE
+* Rebased: Kali (based on Debian)
+* Rebased: Volumio (based on Debian)
+* Rebased: SystemRescueCD (Arch since 2019.02.02)
+* Rebased: WHAX (based on Slax)
+* Rebased: Backtrack (Ubuntu since 2010.01.9)
+* Rebased: MAX (Ubuntu since 2007.03)
+* Rebased: Netrunner (Debian since 2016.10.23)
+* Rebased: Linkat (OpenSUSE since 2009.10.15)
+* Rebased: Linkat (Ubuntu since 2011.11.25)
+* Rebased: Stresslinux (OpenSUSE since 2010.04.13)
+* Rebased: Hiweed Linux (Debian since 2004.7.22)
+* Rebased: Hiweed Linux (Ubuntu since 2006.09.25)
+* Rebased: deepin (Debian since 2015.12.30)
+* Renamed: Void to VoidLinux
+* Renamed: Ylmf to Ylmf OS (thanks to xingjiapeng)
+* Renamed: Sparky to Sparky Linux (thanks to xingjiapeng)
+* Renamed: Happy to Happy Linux (thanks to xingjiapeng)
+* Renamed: deepin (various) (thanks to xingjiapeng)
+* Renamed: Elementary OS to elementary OS (thanks to xingjiapeng)
+* Renamed: gnuLiNex to gnuLinEx (thanks to xingjiapeng)
+* Renamed: Ubuntu DesktopPack to Ubuntu-Pack (there are multiple edition,
+           not only desktop related) (thanks to xingjiapeng)
+* Renamed: GuixSD to Guix System (thanks to xingjiapeng)
+* Renamed: Raspbian to Raspberry Pi OS
+* Renamed: SystemRescueCD to SystemRescue
+* Renamed: Voyage to Voyage Linux
+* Renamed: Auditor Security Linux to Auditor Security Collection
+* Renamed: Arch to Arch Linux
+* Fixed: link for VoidLinux (thanks to Unrealrussian)
+* Fixed: link for Lihuen
+* Fixed: links for SystemRescueCD/SystemRescue
+* Fixed: link for MCC Interim (thanks to SoulRepo)
+* Fixed: link for Red Flag (thanks to xingjiapeng)
+* Fixed: Slackware started before Debian
+* Fixed: start date for Nethserver (not definitive)
+* Fixed: start date for Chromium OS
+* Fixed: deepin history (thanks to xingjiapeng)
+* Misc: rewrite of build.sh in POSIX shell by Konimex
+
+19.04 2019-04-30
+* Added: Raspbmc/OSMC, OmniROM
+* Added: Shift Linux (discontinued) (thanks to jristz)
+* Added: ArchMerge/ArcoLinux, Pop OS, Bluestar Linux
+* Added: SwagArch GNU/Linux, Snakeoil OS
+* Added: Hyperbola (thanks to André Silva)
+* Added: Ubuntu Touch (thanks to Michael McMahon)
+* Added: Arch Linux 32 (thanks to kRkk)
+* Added: Artix (thanks to PaoJiao, xnano200, konimex)
+* Added: Endless OS (thanks to btreut)
+* Added: Q4OS (thanks to larkivisto)
+* Added: Asteroid OS, BBQLinux
+* Added: SCO Linux (discontinued)
+* Discontinued: Vyatta, Korora, Hawaii OS, Parsidora
+* Discontinued: DeLi(cate), XBMCbuntu, ZevenOS
+* Discontinued: Symphony OS, Bridge, IPCop, eZeY
+* Discontinued: Hanthana, Stephenson's Rocket
+* Discontinued: Chapeau, Finnix, Quirky
+* Discontinued: PoliArch, Android-IA, Edubuntu
+* Discontinued: Parsix (thanks to jorgenatz)
+* Discontinued: Burapha (thanks to jorgenatz)
+* Discontinued: Caixa Mágica (thanks to jorgenatz)
+* Discontinued: Synergy (thanks to jorgenatz)
+* Discontinued: Fusion (thanks to jorgenatz)
+* Discontinued: Devil (thanks to jorgenatz)
+* Discontinued: K12 (thanks to jorgenatz)
+* Discontinued: Jarro Negro (thanks to jorgenatz)
+* Discontinued: Turbolinux
+* Blacklisted: Mandragora, Keysoft
+* Blacklisted: JOPUX (thanks to jorgenatz)
+* Blacklisted: NanoLinux, Remix OS, Revenge OS
+* Back to waiting list: ExTiX, VeltOS
+* Back to waiting list: CopperheadOS, Phoenix OS
+* Merged: Lede Project into OpenWRT
+* Renamed: Android Wear to Wear OS
+* Renamed: AV to AV Linux
+* Renamed: ASP to ASPLinux
+* Renamed: Caldera to Caldera OpenLinux
+* Renamed: SCO to SCO OpenLinux
+* Renamed: Lycoris to Lycoris Desktop/LX
+* Fixed: start & end date for Knopperdisk
+* Fixed: start date for Void (thanks to Aleppi)
+* Fixed: link for Sage Live (thanks to sergds)
+* Fixed: link for AV Linux
+* Fixed: link for piCorePlayer (thanks to btreut)
+* Fixed: link for Deepin (thanks to btreut)
+* Fixed: link for PelicanHPC
+* Fixed: link for Gibraltar Firewall (thanks to Zitrax)
+* Fixed: link for MAX
+* Fixed: link for NayuOS
+* Fixed: link for ConnochaetOS
+* Fixed: connector for ASPLinux (thanks to jorgenatz)
+* Fixed: ChaletOS to Xubuntu-based distribution
+* Fixed: normalized data (thanks to schcriher)
+* Fixed: markdown in DISTRIBUTIONS.md (thanks to kRkk)
+
+17.10 (2017-10-29)
+* Added: GuixSD, LineageOS, SteamOS, ToriOS, OSGeo-Live
+* Added: Android Things/Project Brillo, Android Wear
+* Added: GalliumOS, Flint OS, VeltOS, MX Linux
+* Added: OviOS, AudioPhile Linux, Daphile, ARCHLabs
+* Added: Ye Olde SteamOSe/Stephenson's Rocket
+* Added: MorpheusArch Linux, OBRevenge OS
+* Added: AOSC OS (thanks to MingcongBai)
+* Added: wtfplay-live, LuneOS, LineageOS, CloudLinux OS
+* Added: Knopperdisk (discontinued)
+* Added: Splack Linux (discontinued) (thanks to fede2cr)
+* Added: Minimal Linux Live (thanks to ivandavidov)
+* Added: Super Grub2 Disk, Obarun
+* Added: dCore (thanks to btreut)
+* Added: Connector 2 ParallelKnoppix -> PelicanHPC
+* Added: Connector 2 LibreELEC -> Lakka
+* Added: Connector 4 SolusOS -> Evolve OS/Solus
+* Added: Connector 4 Ubuntu Gnome -> Ubuntu
+* Discontinued: Cyanogen OS, CyanogenMod , Unity Linux
+* Discontinued: Red Ribbon, Apricity
+* Discontinued: Madbox, Musix, Descent|OS
+* Discontinued: DNALinux, SLAMPP, Topologilinux, Stux
+* Discontinued: Imagineos, Slack/390, Agilialinux
+* Discontinued: pQui, Slackintosh, Bluewhite64, Draco
+* Discontinued: PLATYPUX, Kongoni, Linvo, Bayanihan
+* Discontinued: Blag, Momonga, Ekaaty, StartCom
+* Discontinued: FREESCO, dyne:bolic, GeeXboX, Legacy OS
+* Discontinued: Sage Live CD, Syllable Server
+* Discontinued: Remix OS (thanks to z3ntu)
+* Discontinued: 0Linux (archiveos.org)
+* Discontinued: Damn Small Linux, kademar
+* Discontinued: Aptosid (thanks to btreut)
+* Blacklisted: ChameleonOS (thanks to JulienAMOURIQ)
+* Blacklisted: DSN-N, Shabdix, Bioknoppix, gOS
+* Blacklisted: miniwoody, UserLinux, quantOS, Beatrix
+* Blacklisted: Tirwal, Virtual, Haydar, LinuxInstall
+* Blacklisted: BioBrew, FrameOS, Bintoo, Oz
+* Blacklisted: Sauver, Lin2Go, Jollix, Navyn OS
+* Blacklisted: Hikarunix, Chaox
+* Continued: Netrunner Rolling, Swift
+* Continued: Dragora (thanks to kelsoo)
+* Renamed: BU to BU Linux
+* Renamed: Unity to Unity Linux
+* Renamed: Budgie Remix to Ubuntu Budgie
+* Renamed: PUIAS to Springdale Linux
+* Renamed: Skolelinux to DebianEdu
+* Renamed: XBMC Live to XBMCbuntu
+* Renamed: Xange to eZeY
+* Renamed: LPS to TENS
+* Renamed: OBRevenge OS to Revenge OS
+* Fixed: Kaos to indipendent distribution (thanks to ShalokShalom)
+* Fixed: SolusOS to Debian-based distribution
+* Fixed: Moode to Raspbian-based distribution
+* Fixed: link for BU Linux
+* Fixed: link for PelicanHPC
+* Fixed: link for Manjaro
+* Fixed: link for Musix (thanks to Bururik)
+* Fixed: link for Syllable Server
+* Fixed: link for Bridge
+* Fixed: link for Slackware ARM
+* Fixed: link for Parsidora
+* Fixed: link for Viperr
+* Fixed: link for Chakra
+* Fixed: link for Berry
+* Fixed: link for Gobunto (thanks to Zitrax)
+* Fixed: Link for Keysoft (thanks to z1tr0t3c)
+* Fixed: start date for Android-x86
+* Fixed: start date for Rockstor (thanks to Mirko Arena)
+* Fixed: typo in gldt.csv (thanks to Michael McMahon)
+* Fixed: typo in readme.md (thanks to Ron Korving)
+
+16.12 (2016-12-25)
+* Added: Keysoft, Parted Magic, Pisi Linux, Porteus Kiosk
+* Added: Devuan, Refracta, Moode, piCorePlayer
+* Added: Xinutop, LuninuX OS/Sn0wL1nuX, Stresslinux (discontinued)
+* Added: armbian, Linux Router Project, Nanolinux
+* Added: Peach OSI, Budgie-remix
+* Added: Connector 2 Porteus -> Porteus Kiosk
+* Added: Connector 2 OpenSUSE -> Linkat
+* Added: Connector 2 Ubuntu -> Linkat
+* Added: Connector 2 OpenSUSE -> Stresslinux
+* Added: Connector 1 LEAF -> Alpine
+* Added: Connector 1 Linux From Scratch -> CRUX (thanks to Mathnerd314)
+* Added: Domain for Gentoo, Arch, Android
+* Renamed: CoreOS to Container Linux
+* Renamed: Astaro to Sophos UTM
+* Discontinued: Mythbuntu, Netrunner Rolling, DoudouLinux
+* Discontinued: aLinux, Coyote
+* Blacklisted: Hadron, Igelle
+* Removed: OpenEmbedded (not a distribution)
+* Fixed: Placement for Mamona
+* Fixed: Volumio/Raspyfi start date and original name
+* Fixed: SUSE editions
+* Fixed: United Linux to SUSE-based distribution
+* Fixed: Splitted Kororaa and Korora
+* Fixed: Links for SUSE
+* Fixed: LEAF to Linux Router Project-based distribution
+
+16.11 (2016-11-05)
+* Added: Clear Linux, SolusOS, Maui OS, Maui Linux
+* Added: Android-IA, Android-x86, Remix OS, Phoenix OS
+* Renamed: Linux Mint Debian to Linux Mint Debian Edition
+* Renamed: Maui OS to Hawaii OS
+* Renamed: 0 to 0Linux
+* Discontinued: Matriux, Macpup, Liberté, SolusOS, Mepis
+* Blacklisted: P@xtreme, Ophone
+* Changed: Link for 0Linux
+* Connectors:
+* Added: Connector 1 Clear Linux -> Solus
+* Added: Connector 2 Debian -> Netrunner
+* Added: Connector 2 Linux Mint -> Linux Mint Debian Edition
+* Added: Connector 1 Linux Mint Debian Edition -> SolusOS
+* Added: Connector 2 Netrunner -> Netrunner Rolling
+* Added: Connector 2 Netrunner -> Maui Linux
+* Added: Connector 1 OpenELEC -> LibreELEC
+* Added: Connector 1 OpenWRT -> Lede Project
+* Removed: Connector Gentoo -> ChromiumOS
+
+16.10 (2016-10-16)
+* Added: VyOS, Sailfish OS, Apricity OS, PoliArch, Yunohost
+* Added: ChromeOS, CloudReady, NayuOS, RancherOS, Noop
+* Renamed: Mint to Linux Mint
+* Fixed: Link for Vyatta
+* Fixed: Ubuntu DesktopPack start date
+* Discontinued: Danix, Kaella, Artistix, Aquamorph, Newtoos
+* Discontinued: Poseidon, Neo Dizinha Linux, Swift, Molinux, Venenux
+* Discontinued: Tuquito, Epidemic, Estrella Roja, Tango Studio, SecUntu
+* Discontinued: Doudou, GNUguitariNUX, , Resulinux, NepaLinux
+* Discontinued: PureOS, Inquisitor, Saline OS, Liquid Lemur, Snowlinux
+* Discontinued: Polippix, Asturix, PUD, Sabily, Monomaxos, AriOS
+* Discontinued: Toorox, Papug, Gentoox, OPhone, Openfiler
+* Discontinued: Phinx, Granular, Tinyme, SAM
+* Blacklisted: Dax OS, Maryan, Zenix OS, Conducit, Joatha, LDR, srvRX Live
+* Blacklisted: AnikOS, Firefly
+* Thanks to: FabioLolix
+
+16.8 (2016-08-10)
+* Added: Untangle, OpenMandriva Lx, Tanglu, Ubuntu DesktopPack, Voyager
+* Added: Runtu, Endian, Rescatux, Lakka, LibreELEC, LEDE-Project
+* Added: Sonar, Netrunner Rolling, EasyNAS, GeckoLinux, KDE Neon
+* Fixed: Link for Parabola
+* Fixed: Position for SuliX
+* Fixed: Position for PC/OS (to Xubuntu)
+* Fixed: Position for Runtu (to Xubuntu)
+* Fixed: Position for LXLE (to Lubuntu)
+* Fixed: Position for Netrunner (to Kubuntu)
+* Fixed: LibreELEC to OpenELEC-based distribution
+* Fixed: Simplicity to Puppy-based distribution
+* Fixed: AryaLinux to LFS-based distribution
+* Fixed: Qube OS to Fedora-based distribution
+* Fixed: Ututo to Gentoo-based distribution
+* Fixed: Engarde to Red Hat-based distribution
+* Fixed: Rip to Slackware-based distribution
+* Discontinued: KahelOS, LDR, CTKARch, Aurora OS, EasyPeasy
+* Discontinued: Element, Fluxbuntu, GnackTrack, Ubuntu Rescue Remix
+* Discontinued: Comfusion, U-Lite, Dream Studio, MoonOS, OpenGeu, Kiwi Linux
+* Discontinued: Ark Linux, 2XOS, 64 Studio, Satanic Edition, Qimo 4 Kids
+* Discontinued: ASLinux, Gibraltar, VLOS, AnikOS, p@xtreme, Ututo, Wolvix
+* Discontinued: Dragora, RIP, Mamona, Yoper Linux, Engarde
+* Thanks to: FabioLolix
+
+16.6 (2016-06-29)
+* Added: NethServer, PrimTux, UberStudent, HandyLinux, Baruwa, Rockstor
+* Added: Parrot, Point, Sparky, PC/OS
+* Discontinued: Yellow Dog
+* Added: Connector 2 Ubuntu -> PC/OS
+* Fixed: Link for Manjaro (Thanks to Linuxing155)
+
+16.5 (2016-05-24)
+* Added: ChaletOS, ExTiX, Univention, AryaLinux, Rebellin, Slackel
+* Added: RoboLinux, Plamo, SELKS, TurnKey
+* Added: Connector 2 Debian -> Pardus
+* Readded: JOPUX
+* Discontinued: Pear OS, Nova, Commodore OS, MeeGo, OS2005
+* Fixed: Nova to Enoch-based distribution
+* Fixed: Pardus to Enoch-based distribution
+* Changed: ThinClientOS -> 2XOS
+* Changed: Repo from GitLab back to GitHub
+* Changed: Link for Pear OS
+
+16.3 (2016-03-04)
+* Added: Chapeau, Volumio
+* Changed: Kororaa -> Korora
+
+16.2 (2016-02-07)
+* Added: LXLE, Linux Lite, Ubuntu MATE, Ubuntu GNOME, Gobuntu, LinuxBBQ, Void, Raspbian
+* Discontinued: Gobuntu, Garuda
+* Changed: Oracle Enterprise -> Oracle Linux, Readded Chakra as an Arch fork
+* Changed: Repo from GitHub to GitLab
+
+16.1.1 (2016-01-29)
+* Fixed: SuliX base (from Fedora Core to Red Hat)
+* Added: Android, CyanogenMod, Cyanogen OS, BlackArch, Kylin
+* Added: Connector from Debian -> Deepin, Debian -> gNewSense
+
+16.1 (2016-01-28)
+* Discontinued: Fuduntu, Red Flag, Jolicloud, rPath, Foresight, Mandriva, Mythdora, trixbox
+* Added 4 distros (total 484): Solus, CoreOS, KaOS, Crunchbang++
+* Renamed: Crunchbang -> Bunsen Labs (The recognized community continuation, see: http://crunchbang.org/forums/viewtopic.php?id=40737)
+* Changed: Chakra (no longer Arch based)
+* Works best with gnuclad 0.2.4
+* When using LibreOffice Calc, turn on "quoted field as text"
+
+===========================================
+
+12.10 (2011-10-23)
+* Discontinued distros: Dreamlinux
+* Continued: Damn Small Linux
+* Added 10 distros (total 480): KaarPux, NixOS, OpenELEC, OpenNode, Santoku, Slack/390, Vulnix, Whonix
+* Renamed: QubesOS -> Qubes OS
+* Fixed: Bedrock (not Gentoo based), Dreamlinux URL, Kaella URL, KateOS URL, Resulinux URL, Symphony OS URL
+* Contributors: Fred, aszlig, D. M., phil, lixiao
+* Works best with gnuclad 0.2.4
+* When using LibreOffice Calc, turn on "quoted field as text"
+
+12.9 (2011-09-09)
+* Discontinued distros: ASP, HostGIS, White Box
+* Continued: Ubuntu Christian Edition
+* Added 50 distros (total 470): Airinux, Amahi, Ångström, ArtistX, Asturix, BackBox, Bedrock, BlackRhino, Bridge, CAINE, Commodore OS, DeLi(cate), Descent|OS, Draco, DRBL, Elementary OS, ELinOS, Hadron, INSERT, KaeilOS, LDR, Liberté, Mandragora, Matriux, Mer, Monomaxos, OpenEmbedded, OpenMediaVault, P@xtreme, Phinx, Polippix, Proxmox, PUIAS, quantOS, Red Ribbon, ROSA, Sage Live CD, SecUntu, ServOS, siduction, Snowlinux, srvRX live, Tango Studio, Tizen, Ubuntu Studio, UserLinux, VINUX, Xamin, Xebian, Zenix OS
+* Added connectors: Arch->Liquid Lemur, Ubuntu->LliureX, Ubuntu->Amahi, Ubuntu->Caixa Mágica, Debian->Finnix, Debian->Airinux, Debian->ArtistX, Ubuntu->ArtistX, OpenEmbedded->KaeilOS, Debian->Zenix OS
+* Renamed: SAM->SAMity, Ylmf->StartOS
+* Fixed: Finnix (Red Hat), gnuLinEx (dates), Ark (website), CentOS->SME connector, removed Debian->LMDE connector
+* Contributors: Markus Hagenlocher, 幻, Alex Zimmerman, Andrey, Azis Naufal, Bassett, Brian Tomlinson, Burak Sezer, Daniel Atalaya, Gavin, Hasan Görmüş, Ismael, Ivan Petrov, Jalal Rohani, Joseph, Matthias, Marco H, Mitch Spinard, No GUI, Pablo, Phil, Ryan Finnie, Shane, Stefan Ivanović, Stefano Antiga, Thirawoot
+* Works best with gnuclad 0.2.4
+* When using LibreOffice Calc, turn on "quoted field as text"
+
+12.2 (2011-02-20)
+* Discontinued distros: Chaox, Damn Vulnerable Linux, KateOS
+* Added 10 distros (total 420): 0, Arch Linux ARM, FREESCO, LliureX, Manjaro, MNIS, Nature's Linux, Pingo, Project Ballantin, Unifix
+* Added connectors: Kubuntu->Netrunner
+* Contributors: appzer0, Clemens Tönnies, Dan, David Greekas, Ed Koenig, Esashi Net Groove Administrator, Kaspar Bumke, LliureX Team, mar04, Markus Hagenlocher, Neschur, Pablo, Pierre Morel, Rok Papež, siarhei
+* Works best with gnuclad 0.2.4
+
+12.1 (2011-01-09)
+* Discontinued distros: gnuLiNex, gOS
+* Added 11 distros (total 410): Bodhi, Exherbo, FireFly, Pear OS, Kwort, MAX, mkLinux, Tails, Viperr, webOS, XBMC Live
+* Added connectors: Gentoo->Chromium OS, Ubuntu->Deepin, Red Hat->MkLinux
+* Fixed: AtheOS (no Linux kernel), swapped Syllable (no Linux kernel) for Syllable Server, DOSLINUX website, nUbuntu end date
+* Contributors: 幻 (tianyizhihuan), Adam McDaniel, AKP, Bernhard Frauendienst, David B. Cortarello, dothebart, Gonzalo Alcalde, Ingmar Vanhassel, James Snyder, Javier Rodríguez Pascua, Jeff Bower, Jeff Hoogland, knowitall, Pablo, Sergio Conde
+* Works best with gnuclad 0.2.4
+
+11.10 (2011-10-28)
+* Discontinued distros: none
+* Added 10 distros (total 400): AtheOS, BrazilFW, Dream Studio, Garuda, Leka Rescue Floppy, Linux Mint Debian, Syllable, SystemRescueCD, Tirwal, Vyatta
+* Added connectors: Lubuntu->DEFT
+* Fixed: DEFT, Debian->CrunchBang connector
+* Contributors: Alan, Alexandre Singh, ArcturusAVNR, Carlo, Connor, Javier, Maarten, Paul, Pasi Rajala
+* Works best with gnuclad 0.2.4
+
+11.8 (2011-08-29)
+* Discontinued distros: Jollix
+* Added 10 distros (total 390): Arc-Live, A/V, Bardinux, Liquid Lemur, Moblin 2, Porteus, Rocks, TEENpup, VENENUX, ZENIX
+* Added connectors: Arch->ConnochaetOS
+* Fixed: Moblin/Maemo/Meego
+* Contributors: angeldeath, mario, Nanonai, Ross Burton
+* Works best with gnuclad 0.2.4
+
+11.7 (2011-07-30)
+* Discontinued distros: none
+* Added 10 distros (total 380): BlueOnyx, DEFT, Greenie, Jollix, Linvo, LPS, Newtoos, PLATYPUX, Semplice, SlaXBMC
+* Added connectors: Fedora->Kororaa
+* Contributors: Analekto, Connor Wood, Galin
+* Works best with gnuclad 0.2.4
+
+11.6 (2011-06-27)
+* Discontinued distros: none
+* Added 10 distros (total 370): AnikOS, B2D, Burapha, Euronode, Jarro Negro, Rxart, Synergy, ThinClientOS, Tiny, Ubuntu Rescue Remix
+* Added connectors: Debian->Dreamlinux, Ubuntu->Backtrack, Ubuntu->Nova
+* Contributors: Stefan Ivanović, Armando, Federico Tello Gentile, Imran Hussain, oscar
+* Works best with gnuclad 0.2.4
+
+11.4 (2011-04-05)
+* Discontinued distros: none
+* Added distros (total 360): Archie (AL-AMLUG), Dax OS, kademar (K-DEMar), Librassoc, LinHES, Ubuntu SE, Underground Desktop, Voyage, Wifislax, Wifiway
+* Added connectors: Arch->ConnochaetOS, Arch->Underground Desktop
+* Contributors: Christophe Poucet, david, Jerome Warnier, naddia, passstab, Víctor Fernández Rico
+* Works best with gnuclad 0.2.4
+
+11.3 (2011-03-06)
+* Discontinued distros: Slamd64
+* Added 10 distros (total 350): ComFusion (Uberyl), Conducit, FrameOS, GNUGuitarINUX, Hanthana, Madbox, Nova, Parsidora, Progress, Ubuntu CE
+* Renamed: MOPSLinux -> AgiliaLinux
+* Fixed: connector Debian->CrunchBang
+* Contributors: AleJol, Gustavo, Marco A. Pollolinux, Vicente jiménez Aguilar, vladimir
+* Works best with gnuclad 0.2.3
+
+11.2 (2011-02-07)
+* Discontinued distros: none
+* Added 10 distros (total 340): Alpine, AriOS, ChameleonOS, Doudoulinux, Joatha, Mythbuntu, Openwall, Parabola, SalineOS, tomsrtbt
+* Added connectors: Red Hat->S.u.S.E., Puppy->Quirky
+* Fixed: connector Ubuntu->Trisquel
+* Contributors: Abdullah Al-Sabi, erkin, Frédéric Perrin, Jose Luis, Mahdi
+* Works best with gnuclad 0.2.2
+
+11.1 (2011-01-05)
+* Discontinued distros: none
+* Added 11 distros (total 330): 64Studio, Arabian, Chromium OS, Lihuen, LinuxConsole, MoonOS, OpenWRT, Swift, Ultimate Edition, Unity, Zorin OS
+* Fixed: Android (not a GNU/Linux distro)
+* Renamed project to "GNU/Linux Distribution Timeline"
+* Contributors: Claes Wallin, Daniel James, Federico Tello Gentile, The Loeki
+* Works best with gnuclad 0.2.2
+
+10.12 (2010-12-05)
+* Discontinued distros: Xandros
+* Added 11 distros (total 320): CTKarchLive, Fuduntu, GnackTrack, Haydar, Leeenux, Lin2Go, Navyn OS, Peppermint OS, Pinguy OS, pQui, Sabily
+* Fixed: Arch Hurd (not a GNU/Linux distro)
+* Contributors: Mohammed A. Mustafa, aseeon, erkin, Kendall Weaver
+* Works best with gnuclad 0.2.2
+
+10.11 (2010-11-07)
+* Discontinued distros: nUbuntu
+* Continued: Edubuntu, gnuLinEx, Maemo (still supported)
+* Added 10 distros (total 310): 4M, antiX, Arch Hurd, Devil-Linux, Fusion, Linkat, NST, RIP, Webconverger, xPUD
+* Fixed: Moblin (first Debian-based, then Fedora)
+* Added connectors: Debian -> Aurora OS, Fedora -> Moblin, Fedora -> MeeGo
+* Contributors: Eleftherios Kosmas, Gerard Braad, Joel Krueger, Xavi Aranda
+* Removed Red Hat logo dependency
+* Works best with gnuclad 0.2.2
+
+10.10 (2010-10-10)
+* Discontinued distros: DSL, DSL-N, Freespire
+* Added 10 distros (total 300): Amber, ArchBang, Bonzai, epiOS, GALPon MiniNo, Mageia, NetStation, Ophcrack, Thinstation, Toorox
+* Renamed: sidux -> aptosid
+* Added connectors: Debian -> Mint
+* Contributors: Chris Watkins, Philipp Neumann, Robert Shingledecker
+* Works best with gnuclad 0.2.2
+
+10.9 (2010-09-09)
+* Discontinued distros: Morphix
+* Added 10 distros (total 290): Aquamorph, Elastix, Funtoo, Jolicloud, Kongoni, MythDora, NetSecL, Ojuba, PLoP, Zentyal
+* Added connectors: Debian->Deepin, Ubuntu->Deepin, Aurora->Fedora
+* Contributors: Franco
+* Works best with gnuclad 0.2.2
+
+10.8 (2010-08-07)
+* Discontinued distros: Aurora (merged into Fedora)
+* Added 11 distros (total 280): Android, Aurora OS, BlankOn, Buhawi, Deepin, Estrella Roja, Hedinux, Qomo, Quantian, UltraPenguin, Zeroshell
+* Fixed: Maemo (duplicate)
+* Contributors: Alexander Sambler, Antonio Engels, chenjie, Rahman Yusri Aftian and Vassily Minaev
+* Works best with gnuclad 0.2.2
+
+10.7 (2010-07-03)
+* Discontinued distros: none
+* Added 10 distros (total 270): Canaima, Damn Vulnerable Linux, Lubuntu, Macpup, Openfiler, openmamba, SliTaz, SMS, Tiny SliTaz, QiLinux
+* Fixed: GoblinX renamed to Imagineos
+* Improved infobox: bigger Tux! (with GNU)
+* Improved logos: now using icon field instead of including external images
+* Contributors: Pascal Bellard, Gardouille, Jason Porter and Flamel Canto
+* Works best with gnuclad 0.2 (experimental)
+
+10.6 (2010-06-06)
+* Discontinued distros: Maemo, Moblin
+* Continued: aLinux
+* Added 10 distros (total 260): HostGIS, Inquisitor, Maemo, MeeGo, MoLinux, NuTyX, Qimo, STUX, UHU, Ylmf
+* Fixed: Tiny Core (10 year facelift), KateOS (originally Slackware based)
+* Contributors: Paulo
+* Works best with gnuclad 0.2 (experimental)
+
+10.5 (2010-05-07)
+* Discontinued distros: none
+* Added 10 distros (total 250): ASLinux, Best, Danix, Independence, Maemo, Mamona, Midori, Moblin, Quirky, wattOS
+* Added Connectors: Debian->CrunchBang, Debian->MEPIS
+* Contributors: Kenneth Rohde Christiansen, Kevin Vesga and Jim Trocki
+* Works best with gnuclad 0.2 (experimental)
+
+10.4 (2010-04-16)
+* Discontinued distros: none
+* Added 10 distros (total 240): DeadCD, Dizinha, Dragora, Metamorphose, NeoDizinha, Netrunner, Omoikane (ARMA), QubesOS, Salix, VortexBox
+* Fixed: sidux (lowercase)
+* Works best with gnuclad 0.2 (experimental)
+
+10.3 (2010-03-04)
+* Discontinued distros: none
+* Added 12 distros (total 230): ASP, Calculate, CERN, Demolinux, Element, Epidemic, Fermi, Igelle, IPFire, Paldo, Resulinux, T2
+* Cleaned up source code of included SVG images and CSV spreadsheet.
+* Contributors: John G. Ruff, Franck Quélain, Norbert Cartagena, Luciano Andress Martini, Joko Keuschnig and René Rebe
+* Works best with gnuclad 0.1
+
+10.2 (2010-02-03)
+* First release using gnuclad.
+* New database: CSV spreadsheet + conf file.
+* Improved SUSE derivates.
+* Added a few distros.
+* Lots of small corrections.
+
+9.3 (2009-03-07)
+* Maintenance release. The timeline is kept at February as in version 9.2.
+* Lots of file/data cleanup.
+* Fixed: Arch (no direct CRUX code), Gobolinux (duplicate), ROCK (renamed from Rock, moved to summer 1998)
+* Added 1 distro (GoboLinux replacement): µClinux (one of the most wide spread embedded Linux distros)
+* Changed README and created CONTRIBUTE folder (contents: CHANGELOG, INFO, TODO, SUGGESTIONS, distribution_data.ods)
+* Contributors: Rob Mills and dcecchin
+
+9.2 (2009-02-12)
+* Discontinued 15 distros: Annvix, ATmission (dormant 3+ years), Aurox, Bluewall, FoX, GNU-HALO, Edubuntu (now addon-CD), ELX, Kororaa, Kurumin, Linspire, Morphix, Sauver, Trustix, ZoneCD (might be revived based on Gentoo)
+* Continued: All others, notably the following: alinux (DistroWatch:dormant), Bioknoppix (DW:dormant), Impi (DW:discontinued, it's not), Nitix (DW:discontinued... it's actively maintained by IBM for Lotus Foundations), SymphonyOS (DW:dormant)
+* Revived: none (just a few control samples checked)
+* Fixed: rPath (not a RedHat fork, designed from ground up by two ex-RedHat engineers), Ututo XS, VLOS (VidaLinux)
+* Added 50 distros: Absolute, Clonezilla Live, Coyote, CrunchBang, DNALinux, Dreamlinux, Easy Peasy, Feather, Finnix, Fluxbuntu, GeeXboX, Gentoox, Gibraltar, GoblinX, GoboLinux, gOS, Granular, Hikarunix, K12, Kaella, Kalango, Kiwi, LEAF, Linpus, MOPSLinux, Musix, NepaLinux, Nitix, OpenGEU, Papug, ParallelKnoppix, PelicanHPC, Pentoo, Poseidon, PureOS, SAM, Slackintosh, Slamd64, SLAMPP, Tinfoil Hat, TinyMe, Topologilinux, Trisquel, Tuquito, U-lite, Ututo-e, Simplis, Vine, Wolvix, ZevenOS
+* Changed README and created CONTRIBUTE file.
+* Contributors: Jake Neumann, Azure Cerulean, David Hill, Norbert Cartagena, Líus Fontenelle Carneiro, guillaume and Meric B. Mara
+
+7.6 (2007-06-21)
+* Added 50 distros: Armed, Asianux, Momonga, Berry, Bogus, Tao, Aurora, Backtrack (WHAX, Whoppix, Auditor Security Linux), BeatrIX, Shabdix, Bioknoppix, Linux Universe, eIT easyLinux, Bayanihan, MINI, Monkey, Ututo, AnNyung, BU Linux, Voltalinux, DOSLINUX (DILINUX), Bluewall, BinToo, LinuxPPC, Eridani, blackPanther, Happy, grml, BioBrew, Miracle, Kondara, Immunix, ELX, LinuxInstall, HP Secure, EvilEntity, SuperRescue, AUSTRUMI, BOSS, Bluewhite64, Trans-Ameritech, WGS Linux Pro, Xdenu, Craftworks, Linux-FT, AsianLinux (Thanks Andrea, Henrik, D. Gimpelevich, M. Prokop, D. Hill)
+* Fixed Progeny, KANOTIX/Sidux, DeLi, Fedora (Fedora Core), Annvix (OpenSLS) (Thanks D. Gimpelevich)
+* Renamed to "GNU/Linux distro timeline" and licensed it under GFDL.
+* Finally a SVG version, thanks to the very helpful A. Urošević.
+
+7.5 (2007-05-08)
+ * Added 34 distros: gNewSense, Linux Mint, Sidux, How-Tux, Skolelinux, e-smith/SME Server, Eurielec, SmoothWall, IPCop, Ulteo, Impi, Trustix, Elive, ALT Linux, Annvix, ATmission, Kurumin, Aurox, StartCom, Caixa Mágica, DARKSTAR, NimbleX, Sauver, DeLi, DeMuDi, GoboLinux, Parsix, Gnu-HALO, DSL-N, KnoppMyth, ZoneCD, nUbuntu, Oz. (Thanks janet, maco, B4ShHK, Thomas Bliesener, Tsunemi, tarumbar, Smarter, Líus F. Carneiro, Jake Neumann, REVTUX)
+ * Fixed Turbolinux/United Linux, Ubuntu/Freespire, Damn Small Linux, PLD, Stampede based on Slackware, Astaro based on SUSE, SLAX (Thanks duder, David Orban, Dylan Griffiths, Lars Strand, Mariusz Mazur, Jake Neumann)
+ * Removed SELinux (Thanks Graham White)
+
+ 7.2 (2007-02-28)
+ * Added 16 distros: Pardus, Linux From Scratch, SELinux, EnGarde, TAMU, DLD/Delix, LST, Yellow Dog, Turbolinux, Rock Linux, Freespire, openSUSE, United Linux, PLD, Kate Linux/KateOS. (Thanks Pawel Michalik, B. Kandemir, T. Ainsworth)
+ * Fixed MCC, SLS, Slackware, Libranet, Arch, Frugalware. (Thanks D. Gimpelevich)
+
+ 6.9 (2006-09-25)
+ * Added 3 distros: Ekaaty, Virtual Linux, Beehive. (Thanks tosta, nightwriter)
+
+ 6.8.4 (2006-08-30)
+ * Added 11 distros: Caldera/SCO, Redmond/Lycoris, Libranet, Peanut/aLinux, Scientific, BLAG, dyne:bolic, Symphony OS.
+ * Fixed PCLinuxOS, Source Mage. (Thanks ruskie)
+
+ 6.8.3 (2006-08-26)
+ * Added 3 distros: SimplyMEPIS, Storm, Progeny. (Thanks D. Gimpelevich, Moises, Jeff Self)
+ * Fixed Vector, Damn Small Linux. (Thanks J. Grindstone, D. Gimpelevich)
+
+ 6.8.2 (2006-08-20)
+ * Added 14 distros: MCC, Yggdrasil, Stampede, Yoper, Sorcerer, Lunar, Source Mage, Enoch, Jurix, Specifix, Guadalinex, Edubuntu, RR4/RR64/Sabayon. (Thanks nightwriter + others)
+
+ 6.8.1 (2006-08-16)
+ * Fixed SUSE, removed openSUSE until its official release. (Thanks M. Schlander)
+
+ 6.8 (2006-08-14)
+ * First one.
