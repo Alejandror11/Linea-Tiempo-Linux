@@ -1,0 +1,1119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<!-- Created with gnuclad 0.2.4 -->
+
+<svg
+  xmlns='http://www.w3.org/2000/svg'
+  xmlns:svg='http://www.w3.org/2000/svg'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape'
+  xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd'
+  xmlns:dc='http://purl.org/dc/elements/1.1/'
+  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+  version='1.1'
+  width='3220'
+  height='1246'
+>
+
+<title>Linux Distributions Timeline</title>
+
+<defs>
+
+  <linearGradient id='__yearline' x1='0' y1='0' x2='1' y2='0'>
+    <stop stop-color='#00316e' offset='0' stop-opacity='1' />
+    <stop stop-color='#2c72c7' offset='1' stop-opacity='1' />
+  </linearGradient>
+
+  <linearGradient id='__infobox_fill' x1='0' y1='0' x2='0' y2='1'>
+    <stop stop-color='#b9d5ff' offset='0' stop-opacity='1' />
+    <stop stop-color='#70b3f2' offset='1' stop-opacity='1' />
+  </linearGradient>
+  <linearGradient id='__infobox_stroke' x1='0' y1='0' x2='0' y2='1'>
+    <stop stop-color='#70b3f2' offset='0' stop-opacity='1' />
+    <stop stop-color='#b9d5ff' offset='1' stop-opacity='1' />
+  </linearGradient>
+  <filter id='__infobox_shadow' color-interpolation-filters='sRGB'>
+    <feGaussianBlur stdDeviation='5' />
+  </filter>
+
+  <linearGradient id='__domain_Slackware' x1='0' y1='0' x2='1' y2='0'>
+    <stop stop-color='#000000' offset='0' stop-opacity='0' />
+    <stop stop-color='#000000' offset='1' stop-opacity='0.15' />
+  </linearGradient>
+
+  <circle id='__connectors_start' cx='0' cy='0' r='4' stroke='none' />
+<rect id='__fadeout' height='1' width='6' y='-0.5' x='0'/>  <linearGradient id='__fadeout_SLS' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#9c8ac4' offset='0' stop-opacity='1' />
+    <stop stop-color='#9c8ac4' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_SLS' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_SLS)' />
+  </marker>
+  <linearGradient id='__fadeout_MNIS' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#516b9e' offset='0' stop-opacity='1' />
+    <stop stop-color='#516b9e' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_MNIS' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_MNIS)' />
+  </marker>
+  <linearGradient id='__fadeout_Stampede' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#866846' offset='0' stop-opacity='1' />
+    <stop stop-color='#866846' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Stampede' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Stampede)' />
+  </marker>
+  <linearGradient id='__fadeout_WHAX' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#445fff' offset='0' stop-opacity='1' />
+    <stop stop-color='#445fff' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_WHAX' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_WHAX)' />
+  </marker>
+  <linearGradient id='__fadeout_SLAMPP' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#ff4343' offset='0' stop-opacity='1' />
+    <stop stop-color='#ff4343' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_SLAMPP' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_SLAMPP)' />
+  </marker>
+  <linearGradient id='__fadeout_Wolvix' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#5a5a5a' offset='0' stop-opacity='1' />
+    <stop stop-color='#5a5a5a' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Wolvix' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Wolvix)' />
+  </marker>
+  <linearGradient id='__fadeout_DNALinux' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#496da7' offset='0' stop-opacity='1' />
+    <stop stop-color='#496da7' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_DNALinux' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_DNALinux)' />
+  </marker>
+  <linearGradient id='__fadeout_Stux' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#ff0000' offset='0' stop-opacity='1' />
+    <stop stop-color='#ff0000' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Stux' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Stux)' />
+  </marker>
+  <linearGradient id='__fadeout_DARKSTAR' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#705ca4' offset='0' stop-opacity='1' />
+    <stop stop-color='#705ca4' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_DARKSTAR' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_DARKSTAR)' />
+  </marker>
+  <linearGradient id='__fadeout_Slack__390' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#444444' offset='0' stop-opacity='1' />
+    <stop stop-color='#444444' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Slack__390' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Slack__390)' />
+  </marker>
+  <linearGradient id='__fadeout_Kate' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#e48a67' offset='0' stop-opacity='1' />
+    <stop stop-color='#e48a67' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Kate' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Kate)' />
+  </marker>
+  <linearGradient id='__fadeout_MOPSLinux' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#50c846' offset='0' stop-opacity='1' />
+    <stop stop-color='#50c846' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_MOPSLinux' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_MOPSLinux)' />
+  </marker>
+  <linearGradient id='__fadeout_Slamd64' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#5a5050' offset='0' stop-opacity='1' />
+    <stop stop-color='#5a5050' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Slamd64' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Slamd64)' />
+  </marker>
+  <linearGradient id='__fadeout_pQui' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#105289' offset='0' stop-opacity='1' />
+    <stop stop-color='#105289' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_pQui' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_pQui)' />
+  </marker>
+  <linearGradient id='__fadeout_RIP' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#2b1bb0' offset='0' stop-opacity='1' />
+    <stop stop-color='#2b1bb0' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_RIP' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_RIP)' />
+  </marker>
+  <linearGradient id='__fadeout_Bluewhite64' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#2356e6' offset='0' stop-opacity='1' />
+    <stop stop-color='#2356e6' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Bluewhite64' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Bluewhite64)' />
+  </marker>
+  <linearGradient id='__fadeout_Kongoni' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#fec367' offset='0' stop-opacity='1' />
+    <stop stop-color='#fec367' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Kongoni' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Kongoni)' />
+  </marker>
+  <linearGradient id='__fadeout_Linvo' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#9cc720' offset='0' stop-opacity='1' />
+    <stop stop-color='#9cc720' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Linvo' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Linvo)' />
+  </marker>
+  <linearGradient id='__fadeout_PLATYPUX' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#884411' offset='0' stop-opacity='1' />
+    <stop stop-color='#884411' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_PLATYPUX' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_PLATYPUX)' />
+  </marker>
+  <linearGradient id='__fadeout_SMS' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#6283b9' offset='0' stop-opacity='1' />
+    <stop stop-color='#6283b9' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_SMS' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_SMS)' />
+  </marker>
+  <linearGradient id='__fadeout_Voltalinux' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#44dafd' offset='0' stop-opacity='1' />
+    <stop stop-color='#44dafd' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Voltalinux' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Voltalinux)' />
+  </marker>
+  <linearGradient id='__fadeout_Slackintosh' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#6496fa' offset='0' stop-opacity='1' />
+    <stop stop-color='#6496fa' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Slackintosh' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Slackintosh)' />
+  </marker>
+  <linearGradient id='__fadeout_HostGIS' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#654321' offset='0' stop-opacity='1' />
+    <stop stop-color='#654321' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_HostGIS' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_HostGIS)' />
+  </marker>
+  <linearGradient id='__fadeout_GoblinX' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#e68200' offset='0' stop-opacity='1' />
+    <stop stop-color='#e68200' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_GoblinX' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_GoblinX)' />
+  </marker>
+  <linearGradient id='__fadeout_DeLicate' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#cc8844' offset='0' stop-opacity='1' />
+    <stop stop-color='#cc8844' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_DeLicate' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_DeLicate)' />
+  </marker>
+  <linearGradient id='__fadeout_Topologilinux' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#000' offset='0' stop-opacity='1' />
+    <stop stop-color='#000' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Topologilinux' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Topologilinux)' />
+  </marker>
+  <linearGradient id='__fadeout_Splack__Linux' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#000' offset='0' stop-opacity='1' />
+    <stop stop-color='#000' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Splack__Linux' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Splack__Linux)' />
+  </marker>
+  <linearGradient id='__fadeout_Tiny' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#444466' offset='0' stop-opacity='1' />
+    <stop stop-color='#444466' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Tiny' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Tiny)' />
+  </marker>
+  <linearGradient id='__fadeout_Burapha' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#77f7ff' offset='0' stop-opacity='1' />
+    <stop stop-color='#77f7ff' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Burapha' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Burapha)' />
+  </marker>
+  <linearGradient id='__fadeout_S.u.S.E' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#4bb679' offset='0' stop-opacity='1' />
+    <stop stop-color='#4bb679' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_S.u.S.E' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_S.u.S.E)' />
+  </marker>
+    <linearGradient
+       xlink:href="#linearGradient11219"
+       id="linearGradient11251"
+       gradientUnits="userSpaceOnUse"
+       x1="331.31177"
+       y1="37.66162"
+       x2="439.4614"
+       y2="187.45703" />
+    <linearGradient
+       id="linearGradient11219">
+      <stop
+         style="stop-color:#5168ae;stop-opacity:1"
+         offset="0"
+         id="stop11221" />
+      <stop
+         style="stop-color:#546ab5;stop-opacity:1"
+         offset="1"
+         id="stop11223" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient11227"
+       id="linearGradient11253"
+       gradientUnits="userSpaceOnUse"
+       x1="383.88776"
+       y1="29.80127"
+       x2="395.74963"
+       y2="181.85013" />
+    <linearGradient
+       id="linearGradient11227">
+      <stop
+         style="stop-color:#6174b8;stop-opacity:1"
+         offset="0"
+         id="stop11229" />
+      <stop
+         style="stop-color:#2f3b63;stop-opacity:1"
+         offset="1"
+         id="stop11231" />
+    </linearGradient>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter10230">
+      <feGaussianBlur
+           stdDeviation="1.3473189"
+         id="feGaussianBlur10232" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter10234">
+      <feGaussianBlur
+           stdDeviation="1.3473189"
+         id="feGaussianBlur10236" />
+    </filter>
+    <linearGradient
+       xlink:href="#linearGradient10210"
+       id="linearGradient11255"
+       gradientUnits="userSpaceOnUse"
+       x1="562.57758"
+       y1="44.28345"
+       x2="562.57758"
+       y2="115.3186" />
+    <linearGradient
+       id="linearGradient10210">
+      <stop
+         style="stop-color:#4e6ab3;stop-opacity:1;"
+         offset="0"
+         id="stop10212" />
+      <stop
+         style="stop-color:#201b32;stop-opacity:1;"
+         offset="1"
+         id="stop10214" />
+    </linearGradient>
+
+<!-- BEGIN additional SVG images - definitions -->
+
+<!-- END additional SVG images - definitions -->
+
+</defs>
+
+<g inkscape:label='Background' inkscape:groupmode='layer' id='layer_background' >
+  <rect x='0' y='0' width='3220' height='1246' rx='11' ry='11' fill='#fff' />
+</g>
+
+<g inkscape:label='Year Rulers' inkscape:groupmode='layer' id='layer_yearrulers' stroke-width='0' stroke='#f0f0f0'>
+  <line x1='10' y1='0' x2='10' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='18' y1='0' x2='18' y2='1246' />
+    <line x1='26' y1='0' x2='26' y2='1246' />
+    <line x1='35' y1='0' x2='35' y2='1246' />
+    <line x1='43' y1='0' x2='43' y2='1246' />
+    <line x1='51' y1='0' x2='51' y2='1246' />
+    <line x1='60' y1='0' x2='60' y2='1246' />
+    <line x1='68' y1='0' x2='68' y2='1246' />
+    <line x1='76' y1='0' x2='76' y2='1246' />
+    <line x1='85' y1='0' x2='85' y2='1246' />
+    <line x1='93' y1='0' x2='93' y2='1246' />
+    <line x1='101' y1='0' x2='101' y2='1246' />
+  <line x1='110' y1='0' x2='110' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='118' y1='0' x2='118' y2='1246' />
+    <line x1='126' y1='0' x2='126' y2='1246' />
+    <line x1='135' y1='0' x2='135' y2='1246' />
+    <line x1='143' y1='0' x2='143' y2='1246' />
+    <line x1='151' y1='0' x2='151' y2='1246' />
+    <line x1='160' y1='0' x2='160' y2='1246' />
+    <line x1='168' y1='0' x2='168' y2='1246' />
+    <line x1='176' y1='0' x2='176' y2='1246' />
+    <line x1='185' y1='0' x2='185' y2='1246' />
+    <line x1='193' y1='0' x2='193' y2='1246' />
+    <line x1='201' y1='0' x2='201' y2='1246' />
+  <line x1='210' y1='0' x2='210' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='218' y1='0' x2='218' y2='1246' />
+    <line x1='226' y1='0' x2='226' y2='1246' />
+    <line x1='235' y1='0' x2='235' y2='1246' />
+    <line x1='243' y1='0' x2='243' y2='1246' />
+    <line x1='251' y1='0' x2='251' y2='1246' />
+    <line x1='260' y1='0' x2='260' y2='1246' />
+    <line x1='268' y1='0' x2='268' y2='1246' />
+    <line x1='276' y1='0' x2='276' y2='1246' />
+    <line x1='285' y1='0' x2='285' y2='1246' />
+    <line x1='293' y1='0' x2='293' y2='1246' />
+    <line x1='301' y1='0' x2='301' y2='1246' />
+  <line x1='310' y1='0' x2='310' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='318' y1='0' x2='318' y2='1246' />
+    <line x1='326' y1='0' x2='326' y2='1246' />
+    <line x1='335' y1='0' x2='335' y2='1246' />
+    <line x1='343' y1='0' x2='343' y2='1246' />
+    <line x1='351' y1='0' x2='351' y2='1246' />
+    <line x1='360' y1='0' x2='360' y2='1246' />
+    <line x1='368' y1='0' x2='368' y2='1246' />
+    <line x1='376' y1='0' x2='376' y2='1246' />
+    <line x1='385' y1='0' x2='385' y2='1246' />
+    <line x1='393' y1='0' x2='393' y2='1246' />
+    <line x1='401' y1='0' x2='401' y2='1246' />
+  <line x1='410' y1='0' x2='410' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='418' y1='0' x2='418' y2='1246' />
+    <line x1='426' y1='0' x2='426' y2='1246' />
+    <line x1='435' y1='0' x2='435' y2='1246' />
+    <line x1='443' y1='0' x2='443' y2='1246' />
+    <line x1='451' y1='0' x2='451' y2='1246' />
+    <line x1='460' y1='0' x2='460' y2='1246' />
+    <line x1='468' y1='0' x2='468' y2='1246' />
+    <line x1='476' y1='0' x2='476' y2='1246' />
+    <line x1='485' y1='0' x2='485' y2='1246' />
+    <line x1='493' y1='0' x2='493' y2='1246' />
+    <line x1='501' y1='0' x2='501' y2='1246' />
+  <line x1='510' y1='0' x2='510' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='518' y1='0' x2='518' y2='1246' />
+    <line x1='526' y1='0' x2='526' y2='1246' />
+    <line x1='535' y1='0' x2='535' y2='1246' />
+    <line x1='543' y1='0' x2='543' y2='1246' />
+    <line x1='551' y1='0' x2='551' y2='1246' />
+    <line x1='560' y1='0' x2='560' y2='1246' />
+    <line x1='568' y1='0' x2='568' y2='1246' />
+    <line x1='576' y1='0' x2='576' y2='1246' />
+    <line x1='585' y1='0' x2='585' y2='1246' />
+    <line x1='593' y1='0' x2='593' y2='1246' />
+    <line x1='601' y1='0' x2='601' y2='1246' />
+  <line x1='610' y1='0' x2='610' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='618' y1='0' x2='618' y2='1246' />
+    <line x1='626' y1='0' x2='626' y2='1246' />
+    <line x1='635' y1='0' x2='635' y2='1246' />
+    <line x1='643' y1='0' x2='643' y2='1246' />
+    <line x1='651' y1='0' x2='651' y2='1246' />
+    <line x1='660' y1='0' x2='660' y2='1246' />
+    <line x1='668' y1='0' x2='668' y2='1246' />
+    <line x1='676' y1='0' x2='676' y2='1246' />
+    <line x1='685' y1='0' x2='685' y2='1246' />
+    <line x1='693' y1='0' x2='693' y2='1246' />
+    <line x1='701' y1='0' x2='701' y2='1246' />
+  <line x1='710' y1='0' x2='710' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='718' y1='0' x2='718' y2='1246' />
+    <line x1='726' y1='0' x2='726' y2='1246' />
+    <line x1='735' y1='0' x2='735' y2='1246' />
+    <line x1='743' y1='0' x2='743' y2='1246' />
+    <line x1='751' y1='0' x2='751' y2='1246' />
+    <line x1='760' y1='0' x2='760' y2='1246' />
+    <line x1='768' y1='0' x2='768' y2='1246' />
+    <line x1='776' y1='0' x2='776' y2='1246' />
+    <line x1='785' y1='0' x2='785' y2='1246' />
+    <line x1='793' y1='0' x2='793' y2='1246' />
+    <line x1='801' y1='0' x2='801' y2='1246' />
+  <line x1='810' y1='0' x2='810' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='818' y1='0' x2='818' y2='1246' />
+    <line x1='826' y1='0' x2='826' y2='1246' />
+    <line x1='835' y1='0' x2='835' y2='1246' />
+    <line x1='843' y1='0' x2='843' y2='1246' />
+    <line x1='851' y1='0' x2='851' y2='1246' />
+    <line x1='860' y1='0' x2='860' y2='1246' />
+    <line x1='868' y1='0' x2='868' y2='1246' />
+    <line x1='876' y1='0' x2='876' y2='1246' />
+    <line x1='885' y1='0' x2='885' y2='1246' />
+    <line x1='893' y1='0' x2='893' y2='1246' />
+    <line x1='901' y1='0' x2='901' y2='1246' />
+  <line x1='910' y1='0' x2='910' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='918' y1='0' x2='918' y2='1246' />
+    <line x1='926' y1='0' x2='926' y2='1246' />
+    <line x1='935' y1='0' x2='935' y2='1246' />
+    <line x1='943' y1='0' x2='943' y2='1246' />
+    <line x1='951' y1='0' x2='951' y2='1246' />
+    <line x1='960' y1='0' x2='960' y2='1246' />
+    <line x1='968' y1='0' x2='968' y2='1246' />
+    <line x1='976' y1='0' x2='976' y2='1246' />
+    <line x1='985' y1='0' x2='985' y2='1246' />
+    <line x1='993' y1='0' x2='993' y2='1246' />
+    <line x1='1001' y1='0' x2='1001' y2='1246' />
+  <line x1='1010' y1='0' x2='1010' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1018' y1='0' x2='1018' y2='1246' />
+    <line x1='1026' y1='0' x2='1026' y2='1246' />
+    <line x1='1035' y1='0' x2='1035' y2='1246' />
+    <line x1='1043' y1='0' x2='1043' y2='1246' />
+    <line x1='1051' y1='0' x2='1051' y2='1246' />
+    <line x1='1060' y1='0' x2='1060' y2='1246' />
+    <line x1='1068' y1='0' x2='1068' y2='1246' />
+    <line x1='1076' y1='0' x2='1076' y2='1246' />
+    <line x1='1085' y1='0' x2='1085' y2='1246' />
+    <line x1='1093' y1='0' x2='1093' y2='1246' />
+    <line x1='1101' y1='0' x2='1101' y2='1246' />
+  <line x1='1110' y1='0' x2='1110' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1118' y1='0' x2='1118' y2='1246' />
+    <line x1='1126' y1='0' x2='1126' y2='1246' />
+    <line x1='1135' y1='0' x2='1135' y2='1246' />
+    <line x1='1143' y1='0' x2='1143' y2='1246' />
+    <line x1='1151' y1='0' x2='1151' y2='1246' />
+    <line x1='1160' y1='0' x2='1160' y2='1246' />
+    <line x1='1168' y1='0' x2='1168' y2='1246' />
+    <line x1='1176' y1='0' x2='1176' y2='1246' />
+    <line x1='1185' y1='0' x2='1185' y2='1246' />
+    <line x1='1193' y1='0' x2='1193' y2='1246' />
+    <line x1='1201' y1='0' x2='1201' y2='1246' />
+  <line x1='1210' y1='0' x2='1210' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1218' y1='0' x2='1218' y2='1246' />
+    <line x1='1226' y1='0' x2='1226' y2='1246' />
+    <line x1='1235' y1='0' x2='1235' y2='1246' />
+    <line x1='1243' y1='0' x2='1243' y2='1246' />
+    <line x1='1251' y1='0' x2='1251' y2='1246' />
+    <line x1='1260' y1='0' x2='1260' y2='1246' />
+    <line x1='1268' y1='0' x2='1268' y2='1246' />
+    <line x1='1276' y1='0' x2='1276' y2='1246' />
+    <line x1='1285' y1='0' x2='1285' y2='1246' />
+    <line x1='1293' y1='0' x2='1293' y2='1246' />
+    <line x1='1301' y1='0' x2='1301' y2='1246' />
+  <line x1='1310' y1='0' x2='1310' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1318' y1='0' x2='1318' y2='1246' />
+    <line x1='1326' y1='0' x2='1326' y2='1246' />
+    <line x1='1335' y1='0' x2='1335' y2='1246' />
+    <line x1='1343' y1='0' x2='1343' y2='1246' />
+    <line x1='1351' y1='0' x2='1351' y2='1246' />
+    <line x1='1360' y1='0' x2='1360' y2='1246' />
+    <line x1='1368' y1='0' x2='1368' y2='1246' />
+    <line x1='1376' y1='0' x2='1376' y2='1246' />
+    <line x1='1385' y1='0' x2='1385' y2='1246' />
+    <line x1='1393' y1='0' x2='1393' y2='1246' />
+    <line x1='1401' y1='0' x2='1401' y2='1246' />
+  <line x1='1410' y1='0' x2='1410' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1418' y1='0' x2='1418' y2='1246' />
+    <line x1='1426' y1='0' x2='1426' y2='1246' />
+    <line x1='1435' y1='0' x2='1435' y2='1246' />
+    <line x1='1443' y1='0' x2='1443' y2='1246' />
+    <line x1='1451' y1='0' x2='1451' y2='1246' />
+    <line x1='1460' y1='0' x2='1460' y2='1246' />
+    <line x1='1468' y1='0' x2='1468' y2='1246' />
+    <line x1='1476' y1='0' x2='1476' y2='1246' />
+    <line x1='1485' y1='0' x2='1485' y2='1246' />
+    <line x1='1493' y1='0' x2='1493' y2='1246' />
+    <line x1='1501' y1='0' x2='1501' y2='1246' />
+  <line x1='1510' y1='0' x2='1510' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1518' y1='0' x2='1518' y2='1246' />
+    <line x1='1526' y1='0' x2='1526' y2='1246' />
+    <line x1='1535' y1='0' x2='1535' y2='1246' />
+    <line x1='1543' y1='0' x2='1543' y2='1246' />
+    <line x1='1551' y1='0' x2='1551' y2='1246' />
+    <line x1='1560' y1='0' x2='1560' y2='1246' />
+    <line x1='1568' y1='0' x2='1568' y2='1246' />
+    <line x1='1576' y1='0' x2='1576' y2='1246' />
+    <line x1='1585' y1='0' x2='1585' y2='1246' />
+    <line x1='1593' y1='0' x2='1593' y2='1246' />
+    <line x1='1601' y1='0' x2='1601' y2='1246' />
+  <line x1='1610' y1='0' x2='1610' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1618' y1='0' x2='1618' y2='1246' />
+    <line x1='1626' y1='0' x2='1626' y2='1246' />
+    <line x1='1635' y1='0' x2='1635' y2='1246' />
+    <line x1='1643' y1='0' x2='1643' y2='1246' />
+    <line x1='1651' y1='0' x2='1651' y2='1246' />
+    <line x1='1660' y1='0' x2='1660' y2='1246' />
+    <line x1='1668' y1='0' x2='1668' y2='1246' />
+    <line x1='1676' y1='0' x2='1676' y2='1246' />
+    <line x1='1685' y1='0' x2='1685' y2='1246' />
+    <line x1='1693' y1='0' x2='1693' y2='1246' />
+    <line x1='1701' y1='0' x2='1701' y2='1246' />
+  <line x1='1710' y1='0' x2='1710' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1718' y1='0' x2='1718' y2='1246' />
+    <line x1='1726' y1='0' x2='1726' y2='1246' />
+    <line x1='1735' y1='0' x2='1735' y2='1246' />
+    <line x1='1743' y1='0' x2='1743' y2='1246' />
+    <line x1='1751' y1='0' x2='1751' y2='1246' />
+    <line x1='1760' y1='0' x2='1760' y2='1246' />
+    <line x1='1768' y1='0' x2='1768' y2='1246' />
+    <line x1='1776' y1='0' x2='1776' y2='1246' />
+    <line x1='1785' y1='0' x2='1785' y2='1246' />
+    <line x1='1793' y1='0' x2='1793' y2='1246' />
+    <line x1='1801' y1='0' x2='1801' y2='1246' />
+  <line x1='1810' y1='0' x2='1810' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1818' y1='0' x2='1818' y2='1246' />
+    <line x1='1826' y1='0' x2='1826' y2='1246' />
+    <line x1='1835' y1='0' x2='1835' y2='1246' />
+    <line x1='1843' y1='0' x2='1843' y2='1246' />
+    <line x1='1851' y1='0' x2='1851' y2='1246' />
+    <line x1='1860' y1='0' x2='1860' y2='1246' />
+    <line x1='1868' y1='0' x2='1868' y2='1246' />
+    <line x1='1876' y1='0' x2='1876' y2='1246' />
+    <line x1='1885' y1='0' x2='1885' y2='1246' />
+    <line x1='1893' y1='0' x2='1893' y2='1246' />
+    <line x1='1901' y1='0' x2='1901' y2='1246' />
+  <line x1='1910' y1='0' x2='1910' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1918' y1='0' x2='1918' y2='1246' />
+    <line x1='1926' y1='0' x2='1926' y2='1246' />
+    <line x1='1935' y1='0' x2='1935' y2='1246' />
+    <line x1='1943' y1='0' x2='1943' y2='1246' />
+    <line x1='1951' y1='0' x2='1951' y2='1246' />
+    <line x1='1960' y1='0' x2='1960' y2='1246' />
+    <line x1='1968' y1='0' x2='1968' y2='1246' />
+    <line x1='1976' y1='0' x2='1976' y2='1246' />
+    <line x1='1985' y1='0' x2='1985' y2='1246' />
+    <line x1='1993' y1='0' x2='1993' y2='1246' />
+    <line x1='2001' y1='0' x2='2001' y2='1246' />
+  <line x1='2010' y1='0' x2='2010' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='2018' y1='0' x2='2018' y2='1246' />
+    <line x1='2026' y1='0' x2='2026' y2='1246' />
+    <line x1='2035' y1='0' x2='2035' y2='1246' />
+    <line x1='2043' y1='0' x2='2043' y2='1246' />
+    <line x1='2051' y1='0' x2='2051' y2='1246' />
+    <line x1='2060' y1='0' x2='2060' y2='1246' />
+    <line x1='2068' y1='0' x2='2068' y2='1246' />
+    <line x1='2076' y1='0' x2='2076' y2='1246' />
+    <line x1='2085' y1='0' x2='2085' y2='1246' />
+    <line x1='2093' y1='0' x2='2093' y2='1246' />
+    <line x1='2101' y1='0' x2='2101' y2='1246' />
+  <line x1='2110' y1='0' x2='2110' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='2118' y1='0' x2='2118' y2='1246' />
+    <line x1='2126' y1='0' x2='2126' y2='1246' />
+    <line x1='2135' y1='0' x2='2135' y2='1246' />
+    <line x1='2143' y1='0' x2='2143' y2='1246' />
+    <line x1='2151' y1='0' x2='2151' y2='1246' />
+    <line x1='2160' y1='0' x2='2160' y2='1246' />
+    <line x1='2168' y1='0' x2='2168' y2='1246' />
+    <line x1='2176' y1='0' x2='2176' y2='1246' />
+    <line x1='2185' y1='0' x2='2185' y2='1246' />
+    <line x1='2193' y1='0' x2='2193' y2='1246' />
+    <line x1='2201' y1='0' x2='2201' y2='1246' />
+  <line x1='2210' y1='0' x2='2210' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='2218' y1='0' x2='2218' y2='1246' />
+    <line x1='2226' y1='0' x2='2226' y2='1246' />
+    <line x1='2235' y1='0' x2='2235' y2='1246' />
+    <line x1='2243' y1='0' x2='2243' y2='1246' />
+    <line x1='2251' y1='0' x2='2251' y2='1246' />
+    <line x1='2260' y1='0' x2='2260' y2='1246' />
+    <line x1='2268' y1='0' x2='2268' y2='1246' />
+    <line x1='2276' y1='0' x2='2276' y2='1246' />
+    <line x1='2285' y1='0' x2='2285' y2='1246' />
+    <line x1='2293' y1='0' x2='2293' y2='1246' />
+    <line x1='2301' y1='0' x2='2301' y2='1246' />
+  <line x1='2310' y1='0' x2='2310' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='2318' y1='0' x2='2318' y2='1246' />
+    <line x1='2326' y1='0' x2='2326' y2='1246' />
+    <line x1='2335' y1='0' x2='2335' y2='1246' />
+    <line x1='2343' y1='0' x2='2343' y2='1246' />
+    <line x1='2351' y1='0' x2='2351' y2='1246' />
+    <line x1='2360' y1='0' x2='2360' y2='1246' />
+    <line x1='2368' y1='0' x2='2368' y2='1246' />
+    <line x1='2376' y1='0' x2='2376' y2='1246' />
+    <line x1='2385' y1='0' x2='2385' y2='1246' />
+    <line x1='2393' y1='0' x2='2393' y2='1246' />
+    <line x1='2401' y1='0' x2='2401' y2='1246' />
+  <line x1='2410' y1='0' x2='2410' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='2418' y1='0' x2='2418' y2='1246' />
+    <line x1='2426' y1='0' x2='2426' y2='1246' />
+    <line x1='2435' y1='0' x2='2435' y2='1246' />
+    <line x1='2443' y1='0' x2='2443' y2='1246' />
+    <line x1='2451' y1='0' x2='2451' y2='1246' />
+    <line x1='2460' y1='0' x2='2460' y2='1246' />
+    <line x1='2468' y1='0' x2='2468' y2='1246' />
+    <line x1='2476' y1='0' x2='2476' y2='1246' />
+    <line x1='2485' y1='0' x2='2485' y2='1246' />
+    <line x1='2493' y1='0' x2='2493' y2='1246' />
+    <line x1='2501' y1='0' x2='2501' y2='1246' />
+  <line x1='2510' y1='0' x2='2510' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='2518' y1='0' x2='2518' y2='1246' />
+    <line x1='2526' y1='0' x2='2526' y2='1246' />
+    <line x1='2535' y1='0' x2='2535' y2='1246' />
+    <line x1='2543' y1='0' x2='2543' y2='1246' />
+    <line x1='2551' y1='0' x2='2551' y2='1246' />
+    <line x1='2560' y1='0' x2='2560' y2='1246' />
+    <line x1='2568' y1='0' x2='2568' y2='1246' />
+    <line x1='2576' y1='0' x2='2576' y2='1246' />
+    <line x1='2585' y1='0' x2='2585' y2='1246' />
+    <line x1='2593' y1='0' x2='2593' y2='1246' />
+    <line x1='2601' y1='0' x2='2601' y2='1246' />
+  <line x1='2610' y1='0' x2='2610' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='2618' y1='0' x2='2618' y2='1246' />
+    <line x1='2626' y1='0' x2='2626' y2='1246' />
+    <line x1='2635' y1='0' x2='2635' y2='1246' />
+    <line x1='2643' y1='0' x2='2643' y2='1246' />
+    <line x1='2651' y1='0' x2='2651' y2='1246' />
+    <line x1='2660' y1='0' x2='2660' y2='1246' />
+    <line x1='2668' y1='0' x2='2668' y2='1246' />
+    <line x1='2676' y1='0' x2='2676' y2='1246' />
+    <line x1='2685' y1='0' x2='2685' y2='1246' />
+    <line x1='2693' y1='0' x2='2693' y2='1246' />
+    <line x1='2701' y1='0' x2='2701' y2='1246' />
+  <line x1='2710' y1='0' x2='2710' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='2718' y1='0' x2='2718' y2='1246' />
+    <line x1='2726' y1='0' x2='2726' y2='1246' />
+    <line x1='2735' y1='0' x2='2735' y2='1246' />
+    <line x1='2743' y1='0' x2='2743' y2='1246' />
+    <line x1='2751' y1='0' x2='2751' y2='1246' />
+    <line x1='2760' y1='0' x2='2760' y2='1246' />
+    <line x1='2768' y1='0' x2='2768' y2='1246' />
+    <line x1='2776' y1='0' x2='2776' y2='1246' />
+    <line x1='2785' y1='0' x2='2785' y2='1246' />
+    <line x1='2793' y1='0' x2='2793' y2='1246' />
+    <line x1='2801' y1='0' x2='2801' y2='1246' />
+  <line x1='2810' y1='0' x2='2810' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='2818' y1='0' x2='2818' y2='1246' />
+    <line x1='2826' y1='0' x2='2826' y2='1246' />
+    <line x1='2835' y1='0' x2='2835' y2='1246' />
+    <line x1='2843' y1='0' x2='2843' y2='1246' />
+    <line x1='2851' y1='0' x2='2851' y2='1246' />
+    <line x1='2860' y1='0' x2='2860' y2='1246' />
+    <line x1='2868' y1='0' x2='2868' y2='1246' />
+    <line x1='2876' y1='0' x2='2876' y2='1246' />
+    <line x1='2885' y1='0' x2='2885' y2='1246' />
+    <line x1='2893' y1='0' x2='2893' y2='1246' />
+    <line x1='2901' y1='0' x2='2901' y2='1246' />
+  <line x1='2910' y1='0' x2='2910' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='2918' y1='0' x2='2918' y2='1246' />
+    <line x1='2926' y1='0' x2='2926' y2='1246' />
+    <line x1='2935' y1='0' x2='2935' y2='1246' />
+    <line x1='2943' y1='0' x2='2943' y2='1246' />
+    <line x1='2951' y1='0' x2='2951' y2='1246' />
+    <line x1='2960' y1='0' x2='2960' y2='1246' />
+    <line x1='2968' y1='0' x2='2968' y2='1246' />
+    <line x1='2976' y1='0' x2='2976' y2='1246' />
+    <line x1='2985' y1='0' x2='2985' y2='1246' />
+    <line x1='2993' y1='0' x2='2993' y2='1246' />
+    <line x1='3001' y1='0' x2='3001' y2='1246' />
+  <line x1='3010' y1='0' x2='3010' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='3018' y1='0' x2='3018' y2='1246' />
+    <line x1='3026' y1='0' x2='3026' y2='1246' />
+    <line x1='3035' y1='0' x2='3035' y2='1246' />
+    <line x1='3043' y1='0' x2='3043' y2='1246' />
+    <line x1='3051' y1='0' x2='3051' y2='1246' />
+    <line x1='3060' y1='0' x2='3060' y2='1246' />
+    <line x1='3068' y1='0' x2='3068' y2='1246' />
+    <line x1='3076' y1='0' x2='3076' y2='1246' />
+    <line x1='3085' y1='0' x2='3085' y2='1246' />
+    <line x1='3093' y1='0' x2='3093' y2='1246' />
+    <line x1='3101' y1='0' x2='3101' y2='1246' />
+  <line x1='3110' y1='0' x2='3110' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='3118' y1='0' x2='3118' y2='1246' />
+    <line x1='3126' y1='0' x2='3126' y2='1246' />
+    <line x1='3135' y1='0' x2='3135' y2='1246' />
+    <line x1='3143' y1='0' x2='3143' y2='1246' />
+    <line x1='3151' y1='0' x2='3151' y2='1246' />
+    <line x1='3160' y1='0' x2='3160' y2='1246' />
+    <line x1='3168' y1='0' x2='3168' y2='1246' />
+    <line x1='3176' y1='0' x2='3176' y2='1246' />
+    <line x1='3185' y1='0' x2='3185' y2='1246' />
+    <line x1='3193' y1='0' x2='3193' y2='1246' />
+    <line x1='3201' y1='0' x2='3201' y2='1246' />
+  <line x1='3210' y1='0' x2='3210' y2='1246' stroke-width='2' stroke='#e1e1e1' />
+</g>
+
+<g inkscape:label='Domains' inkscape:groupmode='layer' id='layer_domains' >
+  <rect x='164' y='73' width='3046' height='1122' rx='11' ry='11' fill='url(#__domain_Slackware)' />
+</g>
+
+<g inkscape:label='Connectors' inkscape:groupmode='layer' id='layer_connectors'
+style='opacity:0.6;' >
+</g>
+
+<g inkscape:label='Lines' inkscape:groupmode='layer' id='layer_lines'
+ style='fill:none;stroke-width:4;' >
+  <path id='__line_Burapha' d='M 451 645 C 526,645 476,1151 551,1151 L 551 1151 L 2177 1151' stroke='#77f7ff' style='stroke-width:4;' marker-end='url(#__stop_Burapha)' />
+  <path id='__line_MNIS' d='M 218 645 C 293,645 243,95 318,95 L 318 95 L 1276 95' stroke='#516b9e' style='stroke-width:4;' marker-end='url(#__stop_MNIS)' />
+  <path id='__line_Stampede' d='M 501 645 C 576,645 526,117 601,117 L 601 117 L 1026 117' stroke='#866846' style='stroke-width:4;' marker-end='url(#__stop_Stampede)' />
+  <path id='__line_VectorLinux' d='M 759 645 C 834,645 784,139 859,139 L 859 139 L 3073 139' stroke='#504ca3' style='stroke-width:4;' />
+  <path id='__line_WHAX' d='M 1260 205 C 1335,205 1285,161 1360,161 L 1360 161 L 1419 161' stroke='#445fff' style='stroke-width:4;' marker-end='url(#__stop_WHAX)' />
+  <path id='__line_SLAMPP' d='M 1281 205 C 1356,205 1306,183 1381,183 L 1381 183 L 1993 183' stroke='#ff4343' style='stroke-width:4;' marker-end='url(#__stop_SLAMPP)' />
+  <path id='__line_DNALinux' d='M 1118 205 C 1193,205 1143,249 1218,249 L 1218 249 L 1740 249' stroke='#496da7' style='stroke-width:4;' marker-end='url(#__stop_DNALinux)' />
+  <path id='__line_Wolvix' d='M 1268 205 C 1343,205 1293,227 1368,227 L 1368 227 L 2139 227' stroke='#5a5a5a' style='stroke-width:4;' marker-end='url(#__stop_Wolvix)' />
+  <path id='__line_Slax' d='M 943 645 C 1018,645 968,205 1043,205 L 1043 205 L 3073 205' stroke='#aadc87' style='stroke-width:4;' />
+  <path id='__line_Plamo' d='M 982 645 C 1057,645 1007,271 1082,271 L 1082 271 L 3073 271' stroke='#596e9d' style='stroke-width:4;' />
+  <path id='__line_Stux' d='M 1076 645 C 1151,645 1101,293 1176,293 L 1176 293 L 1978 293' stroke='#ff0000' style='stroke-width:4;' marker-end='url(#__stop_Stux)' />
+  <path id='__line_DARKSTAR' d='M 1118 645 C 1193,645 1143,315 1218,315 L 1218 315 L 1611 315' stroke='#705ca4' style='stroke-width:4;' marker-end='url(#__stop_DARKSTAR)' />
+  <path id='__line_Minislack' d='M 1148 645 C 1223,645 1173,337 1248,337 L 1248 337 L 3073 337' stroke='#496da7' style='stroke-width:4;' />
+  <path id='__line_Slack__390' d='M 1161 645 C 1236,645 1186,359 1261,359 L 1261 359 L 2089 359' stroke='#444444' style='stroke-width:4;' marker-end='url(#__stop_Slack__390)' />
+  <path id='__line_Kate' d='M 1187 645 C 1262,645 1212,381 1287,381 L 1287 381 L 1751 381' stroke='#e48a67' style='stroke-width:4;' marker-end='url(#__stop_Kate)' />
+  <path id='__line_MOPSLinux' d='M 1193 645 C 1268,645 1218,403 1293,403 L 1293 403 L 2409 403' stroke='#50c846' style='stroke-width:4;' marker-end='url(#__stop_MOPSLinux)' />
+  <path id='__line_Slamd64' d='M 1215 645 C 1290,645 1240,425 1315,425 L 1315 425 L 1718 425' stroke='#5a5050' style='stroke-width:4;' marker-end='url(#__stop_Slamd64)' />
+  <path id='__line_pQui' d='M 1260 645 C 1335,645 1285,447 1360,447 L 1360 447 L 2194 447' stroke='#105289' style='stroke-width:4;' marker-end='url(#__stop_pQui)' />
+  <path id='__line_RIP' d='M 1344 645 C 1419,645 1369,469 1444,469 L 1444 469 L 2313 469' stroke='#2b1bb0' style='stroke-width:4;' marker-end='url(#__stop_RIP)' />
+  <path id='__line_Bluewhite64' d='M 1385 645 C 1460,645 1410,491 1485,491 L 1485 491 L 2097 491' stroke='#2356e6' style='stroke-width:4;' marker-end='url(#__stop_Bluewhite64)' />
+  <path id='__line_Wifislax' d='M 1406 645 C 1481,645 1431,513 1506,513 L 1506 513 L 3073 513' stroke='#303030' style='stroke-width:4;' />
+  <path id='__line_Draco' d='M 1447 645 C 1522,645 1472,535 1547,535 L 1547 535 L 3073 535' stroke='#bf0000' style='stroke-width:4;' />
+  <path id='__line_Wifiway' d='M 1601 645 C 1676,645 1626,557 1701,557 L 1701 557 L 3073 557' stroke='#303030' style='stroke-width:4;' />
+  <path id='__line_Kongoni' d='M 1618 645 C 1693,645 1643,579 1718,579 L 1718 579 L 2263 579' stroke='#fec367' style='stroke-width:4;' marker-end='url(#__stop_Kongoni)' />
+  <path id='__line_Salix' d='M 1680 645 C 1755,645 1705,601 1780,601 L 1780 601 L 3073 601' stroke='#6e9834' style='stroke-width:4;' />
+  <path id='__line_Slackel' d='M 1855 645 C 1930,645 1880,623 1955,623 L 1955 623 L 3073 623' stroke='#ddee22' style='stroke-width:4;' />
+  <path id='__line_S.u.S.E' d='M 164 645 C 210.5,645 179.5,1173 226,1173 L 226 1173 L 443 1173' stroke='#4bb679' style='stroke-width:4;' marker-end='url(#__stop_S.u.S.E)' />
+  <path id='__line_Porteus' d='M 1856 645 C 1931,645 1881,667 1956,667 L 1956 667 L 3073 667' stroke='#000099' style='stroke-width:4;' />
+  <path id='__line_SlaXBMC' d='M 1851 645 C 1926,645 1876,689 1951,689 L 1951 689 L 3073 689' stroke='#2d25ce' style='stroke-width:4;' />
+  <path id='__line_Linvo' d='M 1633 645 C 1708,645 1658,711 1733,711 L 1733 711 L 2263 711' stroke='#9cc720' style='stroke-width:4;' marker-end='url(#__stop_Linvo)' />
+  <path id='__line_PLATYPUX' d='M 1608 645 C 1683,645 1633,733 1708,733 L 1708 733 L 2295 733' stroke='#884411' style='stroke-width:4;' marker-end='url(#__stop_PLATYPUX)' />
+  <path id='__line_SMS' d='M 1470 645 C 1545,645 1495,755 1570,755 L 1570 755 L 2786 755' stroke='#6283b9' style='stroke-width:4;' marker-end='url(#__stop_SMS)' />
+  <path id='__line_SL4P' d='M 1931 777 C 2006,777 1956,799 2031,799 L 2031 799 L 3073 799' stroke='#000' style='stroke-width:4;' />
+  <path id='__line_ARMedslack' d='M 1414 645 C 1489,645 1439,777 1514,777 L 1514 777 L 3073 777' stroke='#000' style='stroke-width:4;' />
+  <path id='__line_Absolute' d='M 1390 645 C 1465,645 1415,821 1490,821 L 1490 821 L 3073 821' stroke='#5a4114' style='stroke-width:4;' />
+  <path id='__line_Voltalinux' d='M 1351 645 C 1426,645 1376,843 1451,843 L 1451 843 L 1651 843' stroke='#44dafd' style='stroke-width:4;' marker-end='url(#__stop_Voltalinux)' />
+  <path id='__line_Slackintosh' d='M 1283 645 C 1358,645 1308,865 1383,865 L 1383 865 L 1952 865' stroke='#6496fa' style='stroke-width:4;' marker-end='url(#__stop_Slackintosh)' />
+  <path id='__line_NetSecL' d='M 1244 645 C 1319,645 1269,887 1344,887 L 1344 887 L 3073 887' stroke='#334d55' style='stroke-width:4;' />
+  <path id='__line_Frugalware' d='M 1193 645 C 1268,645 1218,909 1293,909 L 1293 909 L 3073 909' stroke='#676a97' style='stroke-width:4;' />
+  <path id='__line_NimbleX' d='M 1190 645 C 1265,645 1215,931 1290,931 L 1290 931 L 3073 931' stroke='#ad2028' style='stroke-width:4;' />
+  <path id='__line_HostGIS' d='M 1168 645 C 1243,645 1193,953 1268,953 L 1268 953 L 1810 953' stroke='#654321' style='stroke-width:4;' marker-end='url(#__stop_HostGIS)' />
+  <path id='__line_GoblinX' d='M 1160 645 C 1235,645 1185,975 1260,975 L 1260 975 L 2253 975' stroke='#e68200' style='stroke-width:4;' marker-end='url(#__stop_GoblinX)' />
+  <path id='__line_AUSTRUMI' d='M 1126 645 C 1201,645 1151,997 1226,997 L 1226 997 L 3073 997' stroke='#d5bc60' style='stroke-width:4;' />
+  <path id='__line_Kwort' d='M 1091 645 C 1166,645 1116,1019 1191,1019 L 1191 1019 L 3073 1019' stroke='#135cae' style='stroke-width:4;' />
+  <path id='__line_DeLicate' d='M 1890 1041 C 1965,1041 1915,1063 1990,1063 L 1990 1063 L 2555 1063' stroke='#cc8844' style='stroke-width:4;' marker-end='url(#__stop_DeLicate)' />
+  <path id='__line_DeLi' d='M 993 645 C 1068,645 1018,1041 1093,1041 L 1093 1041 L 3073 1041' stroke='#767676' style='stroke-width:4;' />
+  <path id='__line_Topologilinux' d='M 974 645 C 1049,645 999,1085 1074,1085 L 1074 1085 L 1944 1085' stroke='#000' style='stroke-width:4;' marker-end='url(#__stop_Topologilinux)' />
+  <path id='__line_Splack__Linux' d='M 863 645 C 938,645 888,1107 963,1107 L 963 1107 L 1469 1107' stroke='#000' style='stroke-width:4;' marker-end='url(#__stop_Splack__Linux)' />
+  <path id='__line_Tiny' d='M 736 645 C 811,645 761,1129 836,1129 L 836 1129 L 1374 1129' stroke='#444466' style='stroke-width:4;' marker-end='url(#__stop_Tiny)' />
+  <path id='__line_Slackware' d='M 64 73 C 139,73 89,645 164,645 L 164 645 L 3073 645' stroke='#000' style='stroke-width:4;' />
+  <path id='__line_SLS' d='M 51 73 L 210 73' stroke='#9c8ac4' style='stroke-width:4;' marker-end='url(#__stop_SLS)' />
+</g>
+
+<g inkscape:label='Dots' inkscape:groupmode='layer' id='layer_dots'
+ style='stroke:none;' >
+  <circle id='__dot_Burapha' cx='551' cy='1151' r='7' fill='#77f7ff' stroke='none' />
+  <circle id='__dot_MNIS' cx='318' cy='95' r='7' fill='#516b9e' stroke='none' />
+  <circle id='__dot_Stampede' cx='601' cy='117' r='7' fill='#866846' stroke='none' />
+  <circle id='__dot_VectorLinux' cx='859' cy='139' r='7' fill='#504ca3' stroke='none' />
+  <circle id='__dot_WHAX' cx='1360' cy='161' r='7' fill='#445fff' stroke='none' />
+  <circle id='__dot_SLAMPP' cx='1381' cy='183' r='7' fill='#ff4343' stroke='none' />
+  <circle id='__dot_DNALinux' cx='1218' cy='249' r='7' fill='#496da7' stroke='none' />
+  <circle id='__dot_Wolvix' cx='1368' cy='227' r='7' fill='#5a5a5a' stroke='none' />
+  <circle id='__dot_Slax' cx='1043' cy='205' r='7' fill='#aadc87' stroke='none' />
+  <circle id='__dot_Plamo' cx='1082' cy='271' r='7' fill='#596e9d' stroke='none' />
+  <circle id='__dot_Stux' cx='1176' cy='293' r='7' fill='#ff0000' stroke='none' />
+    <circle cx='1193' cy='293' r='5' fill='#ff0000' stroke='none' />
+  <circle id='__dot_DARKSTAR' cx='1218' cy='315' r='7' fill='#705ca4' stroke='none' />
+  <circle id='__dot_Minislack' cx='1248' cy='337' r='7' fill='#496da7' stroke='none' />
+    <circle cx='1371' cy='337' r='5' fill='#496da7' stroke='none' />
+  <circle id='__dot_Slack__390' cx='1261' cy='359' r='7' fill='#444444' stroke='none' />
+  <circle id='__dot_Kate' cx='1287' cy='381' r='7' fill='#e48a67' stroke='none' />
+    <circle cx='1344' cy='381' r='5' fill='#e48a67' stroke='none' />
+  <circle id='__dot_MOPSLinux' cx='1293' cy='403' r='7' fill='#50c846' stroke='none' />
+    <circle cx='1840' cy='403' r='5' fill='#50c846' stroke='none' />
+  <circle id='__dot_Slamd64' cx='1315' cy='425' r='7' fill='#5a5050' stroke='none' />
+  <circle id='__dot_pQui' cx='1360' cy='447' r='7' fill='#105289' stroke='none' />
+  <circle id='__dot_RIP' cx='1444' cy='469' r='7' fill='#2b1bb0' stroke='none' />
+  <circle id='__dot_Bluewhite64' cx='1485' cy='491' r='7' fill='#2356e6' stroke='none' />
+  <circle id='__dot_Wifislax' cx='1506' cy='513' r='7' fill='#303030' stroke='none' />
+  <circle id='__dot_Draco' cx='1547' cy='535' r='7' fill='#bf0000' stroke='none' />
+  <circle id='__dot_Wifiway' cx='1701' cy='557' r='7' fill='#303030' stroke='none' />
+  <circle id='__dot_Kongoni' cx='1718' cy='579' r='7' fill='#fec367' stroke='none' />
+  <circle id='__dot_Salix' cx='1780' cy='601' r='7' fill='#6e9834' stroke='none' />
+  <circle id='__dot_Slackel' cx='1955' cy='623' r='7' fill='#ddee22' stroke='none' />
+  <circle id='__dot_S.u.S.E' cx='226' cy='1173' r='7' fill='#4bb679' stroke='none' />
+  <circle id='__dot_Porteus' cx='1956' cy='667' r='7' fill='#000099' stroke='none' />
+  <circle id='__dot_SlaXBMC' cx='1951' cy='689' r='7' fill='#2d25ce' stroke='none' />
+  <circle id='__dot_Linvo' cx='1733' cy='711' r='7' fill='#9cc720' stroke='none' />
+  <circle id='__dot_PLATYPUX' cx='1708' cy='733' r='7' fill='#884411' stroke='none' />
+  <circle id='__dot_SMS' cx='1570' cy='755' r='7' fill='#6283b9' stroke='none' />
+    <circle cx='1853' cy='755' r='5' fill='#6283b9' stroke='none' />
+  <circle id='__dot_SL4P' cx='2031' cy='799' r='7' fill='#000' stroke='none' />
+  <circle id='__dot_ARMedslack' cx='1514' cy='777' r='7' fill='#000' stroke='none' />
+    <circle cx='2074' cy='777' r='5' fill='#000' stroke='none' />
+  <circle id='__dot_Absolute' cx='1490' cy='821' r='7' fill='#5a4114' stroke='none' />
+  <circle id='__dot_Voltalinux' cx='1451' cy='843' r='7' fill='#44dafd' stroke='none' />
+  <circle id='__dot_Slackintosh' cx='1383' cy='865' r='7' fill='#6496fa' stroke='none' />
+  <circle id='__dot_NetSecL' cx='1344' cy='887' r='7' fill='#334d55' stroke='none' />
+  <circle id='__dot_Frugalware' cx='1293' cy='909' r='7' fill='#676a97' stroke='none' />
+  <circle id='__dot_NimbleX' cx='1290' cy='931' r='7' fill='#ad2028' stroke='none' />
+  <circle id='__dot_HostGIS' cx='1268' cy='953' r='7' fill='#654321' stroke='none' />
+  <circle id='__dot_GoblinX' cx='1260' cy='975' r='7' fill='#e68200' stroke='none' />
+    <circle cx='1860' cy='975' r='5' fill='#e68200' stroke='none' />
+  <circle id='__dot_AUSTRUMI' cx='1226' cy='997' r='7' fill='#d5bc60' stroke='none' />
+  <circle id='__dot_Kwort' cx='1191' cy='1019' r='7' fill='#135cae' stroke='none' />
+  <circle id='__dot_DeLicate' cx='1990' cy='1063' r='7' fill='#cc8844' stroke='none' />
+  <circle id='__dot_DeLi' cx='1093' cy='1041' r='7' fill='#767676' stroke='none' />
+    <circle cx='1896' cy='1041' r='5' fill='#767676' stroke='none' />
+  <circle id='__dot_Topologilinux' cx='1074' cy='1085' r='7' fill='#000' stroke='none' />
+  <circle id='__dot_Splack__Linux' cx='963' cy='1107' r='7' fill='#000' stroke='none' />
+  <circle id='__dot_Tiny' cx='836' cy='1129' r='7' fill='#444466' stroke='none' />
+  <circle id='__dot_Slackware' cx='164' cy='645' r='7' fill='#000' stroke='none' />
+  <circle id='__dot_SLS' cx='51' cy='73' r='7' fill='#9c8ac4' stroke='none' />
+</g>
+
+<g inkscape:label='Icons' inkscape:groupmode='layer' id='layer_icons'>
+  <g transform=' translate(29,480)' >
+
+    <g id="slackware" transform="scale(0.47) translate(0,380)" inkscape:label="#g11242" style="display:inline;">
+      <path 
+         d="m 10.60508,261.84109 0,33.32525 0,2.23445 2.2345,0 132.9498,0 0,22.40837 161.61476,0 0,-43.02916 -161.61476,0 0,18.38634 -132.9498,0 0,-33.32525 -2.2345,0 z m 181.3418,21.5465 c 0.1763,-0.0177 0.3592,0 0.5745,0 0.6612,0 1.144,0.0725 1.4684,0.25537 0.0147,0.009 0.0496,0.0227 0.0638,0.0319 0.0626,0.0426 0.1402,0.10688 0.1916,0.1596 0.0557,0.0599 0.1161,0.15013 0.1595,0.22345 0.2538,0.44823 0.3192,1.157 0.3192,2.20253 0,1.02808 -0.0559,1.69781 -0.2873,2.10676 -0.008,0.0136 -0.0233,0.0508 -0.0319,0.0639 -0.0264,0.0382 -0.0647,0.0943 -0.0958,0.12768 -0.005,0.005 -0.0264,0.0266 -0.0318,0.0319 -0.006,0.005 -0.0262,0.0269 -0.0319,0.0319 -0.0235,0.0197 -0.07,0.046 -0.0958,0.0638 -0.0132,0.009 -0.0501,0.0237 -0.0639,0.0319 -0.3248,0.18313 -0.8254,0.25538 -1.5641,0.25537 -1.7931,0 -2.2345,-0.35739 -2.2344,-2.10677 0,-1.35474 0.0757,-2.21804 0.3511,-2.74518 0.0139,-0.0254 0.0489,-0.0719 0.0638,-0.0958 0.0767,-0.11656 0.1806,-0.23856 0.2873,-0.3192 0.0436,-0.0314 0.1107,-0.0695 0.1596,-0.0958 0.0332,-0.0169 0.092,-0.0491 0.1277,-0.0638 0.1818,-0.0713 0.4184,-0.13432 0.6704,-0.1596 z m -35.3363,1.43643 c 0.1107,-0.0125 0.2267,0 0.3512,0 l 7.0544,0 c 0.2078,0 0.3889,0.0229 0.5426,0.0638 0.0471,0.0136 0.1179,0.0467 0.1596,0.0639 0.0246,0.0107 0.0732,0.0199 0.0958,0.0319 0.1101,0.0619 0.2226,0.16539 0.2873,0.25536 0.0124,0.0183 0.0214,0.0445 0.032,0.0638 0.006,0.0131 0.026,0.0503 0.0318,0.0639 0.005,0.0137 0.0273,0.0497 0.0319,0.0638
+              0.004,0.0144 -0.004,0.0491 0,0.0638 0.005,0.0224 0.0291,0.0725 0.032,0.0958 0.002,0.0235 -6e-4,0.0714 0,0.0958 l 0,24.06824 6.6395,0 c 1.0934,0 1.6279,0.41874 1.6279,1.46836 0,0.61228 -0.136,1.0153 -0.4149,1.24491 -0.2798,0.21323 -0.7264,0.28728 -1.3407,0.28728 l -15.737,0 c -0.5152,0 -0.9311,-0.10777 -1.2128,-0.3192 -0.1039,-0.0829 -0.2171,-0.20673 -0.2874,-0.31921 -0.1343,-0.23032 -0.2234,-0.548 -0.2234,-0.89378 0,-1.00589 0.6386,-1.46833 1.8194,-1.46836 l 5.9053,0 0,-21.86571 -3.6388,0 c -0.4811,0 -0.8667,-0.0639 -1.0854,-0.0638 -0.8309,0 -1.4112,-0.1372 -1.7236,-0.47881 -0.1974,-0.23179 -0.2874,-0.56245 -0.2874,-0.98954 0,-0.45579 0.1177,-0.83114 0.3511,-1.08531 0.05,-0.0511 0.1316,-0.11733 0.1916,-0.1596 0.2054,-0.13595 0.4815,-0.25158 0.798,-0.28729 z m 66.96969,7.66098 c 0.20481,-0.0169 0.39735,0 0.60645,0 4.06737,0 6.95882,2.65516 6.95882,7.59713 l 0,9.67199 c 0.30613,0 0.65139,3e-5 0.95752,0 1.35579,0 2.01106,0.375 2.01106,1.46836 0,1.22455 -0.73566,1.53219 -2.26642,1.53219 l -4.72427,0 c -1.53067,0 -2.13864,-0.13269 -2.13864,-1.53219 0,-0.44281 0.099,-0.76277 0.28734,-0.98954 0.31992,-0.35602 0.9186,-0.47879 1.8513,-0.47882 0.21869,0 0.43984,3e-5 0.70235,0 l 0,-8.87397 c 0,-3.41126 -1.57417,-5.13925 -4.37319,-5.13924 -2.58032,0 -5.55421,1.94662 -5.55421,5.13924 l 0,8.87397 c 0.34986,0 0.66334,-0.0638 0.92566,-0.0638 1.48704,0 2.04292,0.35137 2.04292,1.5322 0,1.44323 -0.64812,1.53219 -2.26632,1.53219 l -3.89433,0
+              c -0.17498,0 -0.5806,0 -1.14915,0 -0.78448,0 -1.29511,-0.21914 -1.56406,-0.63841 -0.138,-0.23032 -0.2235,-0.548 -0.2235,-0.89378 0,-1.22456 0.74046,-1.46833 2.48982,-1.46836 0.13126,0 0.27191,3e-5 0.44689,0 l 0,-13.694 c -0.30613,0 -0.65149,1e-5 -0.95762,0 -1.35579,0 -1.97909,-0.43883 -1.97909,-1.5322 0,-0.37174 0.0706,-0.65275 0.19153,-0.86185 0.008,-0.0128 0.0236,-0.0516 0.032,-0.0639 0.004,-0.006 0.0275,-0.026 0.0319,-0.0319 0.004,-0.006 0.0273,-0.0263 0.0319,-0.0319 0.005,-0.005 0.0272,-0.0266 0.032,-0.0319 0.42738,-0.45099 1.29522,-0.47882 2.6175,-0.47881 l 2.01106,0 c 0.31155,0 0.57508,0.0704 0.7661,0.1596 0.0154,0.008 0.0491,0.0237 0.0637,0.0319 0.0928,0.0554 0.19683,0.14698 0.25536,0.22345 0.013,0.018 0.0208,0.0448 0.032,0.0638 0.007,0.0129 0.0258,0.0505 0.032,0.0638 0.006,0.0135 0.0268,0.0499 0.0319,0.0638 0.0117,0.0354 0.0251,0.0898 0.0319,0.12769 0.004,0.023 -0.002,0.072 0,0.0958 8.1e-4,0.0161 0,0.0474 0,0.0638 l 0,1.43643 c 1.86284,-1.7439 3.67042,-2.70935 5.65001,-2.87286 z m -36.83649,0.54265 c 0.0174,-2.4e-4 0.046,0 0.0638,0 l 6.2565,0 c 0.2856,0 0.5182,0.0521 0.7022,0.12768 0.0245,0.0107 0.0732,0.0519 0.0958,0.0638 0.0146,0.008 0.05,0.0231 0.0638,0.0319 0.0135,0.009 0.0513,0.0223 0.0639,0.0319 0.006,0.005 0.026,0.0269 0.0319,0.0319 0.006,0.005 0.0263,0.0266 0.0319,0.0319 0.005,0.005 0.0268,0.0264 0.0319,0.0319 0.01,0.0113 0.0229,0.0521 0.032,0.0638 0.004,0.006 0.0278,0.0258 0.0319,0.0319 0.004,0.006
+              0.0282,0.0256 0.0318,0.0319 0.007,0.0129 0.0258,0.0505 0.032,0.0638 0.0146,0.0339 0.0223,0.0913 0.032,0.12769 0.0104,0.0443 0.0284,0.11198 0.0319,0.1596 8e-4,0.0161 0,0.0474 0,0.0638 l 0,15.83269 6.863,0 c 0.6321,0 1.0801,0.15267 1.3405,0.47882 0.1762,0.23603 0.2874,0.56313 0.2874,0.98954 0,0.44007 -0.085,0.79019 -0.2234,1.02146 -0.2525,0.38866 -0.7396,0.51073 -1.5322,0.51073 l -16.5669,0 c -0.7284,0 -1.2386,-0.21914 -1.5004,-0.63841 -0.1343,-0.23032 -0.2234,-0.548 -0.2234,-0.89378 0,-1.00589 0.6068,-1.46833 1.7876,-1.46836 l 6.5438,0 0,-13.694 -4.1817,0 c -1.1808,0 -1.7875,-0.5263 -1.7875,-1.5322 0,-0.3772 0.0955,-0.69378 0.2553,-0.9257 0.2638,-0.35776 0.74,-0.56565 1.4046,-0.57457 z m 58.766,0 c 0.0176,-2.4e-4 0.0462,0 0.0639,0 l 3.22394,0 c 0.6089,0 0.93117,0.13851 1.0853,0.38305 0.0176,0.0306 0.0504,0.0933 0.0639,0.12768 0.0786,0.22089 0.0958,0.51794 0.0958,0.89378 0,0.0875 0,0.13596 0,0.22345 l 0,10.24656 c 0,3.49874 1.46427,5.13923 4.78801,5.13924 2.88655,0 5.65003,-1.99035 5.65003,-5.13924 l 0,-8.84205 -2.93671,0 c -0.51522,0 -0.89684,-0.11351 -1.14915,-0.31921 -0.0673,-0.0588 -0.14168,-0.14818 -0.19152,-0.22344 -0.14914,-0.24172 -0.2235,-0.57953 -0.2235,-0.98955 0,-0.45921 0.10735,-0.81391 0.31931,-1.05338 0.27477,-0.2902 0.72677,-0.4469 1.37254,-0.44689 l 4.56461,0 c 1.48705,0 1.46836,0.80652 1.46846,2.07485 l 0,14.65162 c 0.30614,0 0.68336,3e-5 0.98949,0 0.86856,0 1.43097,0.17102 1.72372,0.57458 0.15006,0.2229
+              0.22351,0.51794 0.22351,0.89378 0,0.4715 -0.13331,0.86162 -0.38305,1.11722 -0.28408,0.27306 -0.72249,0.41497 -1.30881,0.41497 l -3.25591,0 c -0.22075,0 -0.41473,-0.0177 -0.57458,-0.0638 -0.0736,-0.0229 -0.16313,-0.0638 -0.2234,-0.0958 -0.0147,-0.008 -0.05,-0.0231 -0.0639,-0.0319 -0.0874,-0.0588 -0.16997,-0.14399 -0.22339,-0.22345 -0.008,-0.0125 -0.0249,-0.051 -0.032,-0.0638 -0.003,-0.007 -0.0287,-0.0253 -0.0319,-0.0319 -0.0146,-0.0339 -0.0223,-0.0913 -0.0319,-0.12768 -0.005,-0.0221 -0.0285,-0.0728 -0.032,-0.0958 -0.003,-0.0233 10e-4,-0.0717 0,-0.0958 -2e-4,-0.008 0,-0.0237 0,-0.0319 l 0,-1.43643 c -2.23048,1.74937 -4.05919,2.74517 -6.63951,2.74518 -4.67953,0 -7.05444,-2.54757 -7.05454,-7.53329 l 0,-9.60815 c -0.30613,0 -0.65139,1e-5 -0.95752,0 -0.72034,0 -1.24394,-0.13532 -1.56417,-0.41497 -0.26364,-0.24638 -0.41502,-0.62179 -0.41502,-1.11723 0,-0.3772 0.0955,-0.69378 0.25537,-0.9257 0.0556,-0.0753 0.15025,-0.1639 0.22349,-0.22344 0.27376,-0.20871 0.67386,-0.34432 1.18102,-0.35113 z m 33.32525,0 c 0.0566,-5.3e-4 0.10092,0 0.15965,0 l 4.3732,0 c 1.48695,0 2.20248,0.43883 2.20248,1.5322 0,1.00588 -0.83975,1.50028 -2.45785,1.50027 l 4.59659,4.50082 4.37309,-4.50082 c -0.13126,0 -0.27191,1e-5 -0.44689,0 -1.57439,0 -2.36213,-0.49441 -2.36213,-1.50027 0,-1.09335 0.71553,-1.53222 2.20247,-1.5322 l 5.55432,0 c 0.30061,0 0.57355,0.098 0.79796,0.22345 0.0701,0.0416 0.16313,0.10656 0.22351,0.1596 0.0252,0.0234 0.0724,0.0703 0.0957,0.0958
+              0.21891,0.25215 0.35119,0.60531 0.35108,1.02146 0,1.09336 -0.74741,1.5641 -2.23435,1.56412 -0.17497,0 -0.38785,-0.0319 -0.60655,-0.0319 l -6.12878,6.38415 7.50143,7.30985 c 0.0874,0 0.1477,3e-5 0.19143,0 0.64923,0 1.13453,0.21032 1.40451,0.57458 0.17099,0.24529 0.28733,0.58179 0.28733,0.95762 0,1.26829 -0.70502,1.46835 -2.58562,1.46835 l -4.3731,0 c -0.81186,0 -1.42637,-0.139 -1.78756,-0.44689 -0.26139,-0.23801 -0.41493,-0.57864 -0.41493,-1.02146 0,-0.91843 0.6469,-1.53217 1.91525,-1.5322 l 1.18102,0 -5.36268,-5.26692 -4.91579,5.26692 c 0.21869,0 0.41971,-0.0638 0.63841,-0.0638 1.44322,0 2.26642,0.63391 2.26632,1.59604 0,1.04962 -0.79113,1.46835 -2.23435,1.46835 l -5.87342,0 c -0.87478,0 -1.46845,-0.54641 -1.46845,-1.59603 0,-0.96215 0.81972,-1.40449 2.3941,-1.40452 0.13126,0 0.27192,3e-5 0.44689,0 l 6.89489,-7.08641 -6.76721,-6.60759 c -0.0874,0 -0.23177,1e-5 -0.31921,0 -1.57437,0 -2.17061,-0.3632 -2.17061,-1.50027 0,-1.22866 0.70461,-1.51562 2.45785,-1.5322 z m -253.51205,-24.06156 c 0,1.76372 0.7396,2.67403 2.0482,2.67403 0.6259,0 1.5362,-0.45516 2.8447,-1.30857 3.1291,0.79652 5.917,1.25168 8.4203,1.25168 6.9411,0 10.8669,-3.47055 10.8669,-8.24965 0,-5.46183 -3.812,-7.62381 -11.1513,-7.7945 -5.4618,-0.11378 -8.648,-0.39825 -8.648,-3.35674 0,-2.21888 2.1052,-4.09638 5.8033,-4.09638 2.9015,0 4.9498,0.68273 7.0548,2.56023 1.65,1.47926 2.2189,2.9016 3.4705,2.9016 1.3655,0 1.8776,-0.96721 1.8776,-2.7878 l 0,-3.24298 c 0,-1.8775
+              -0.6259,-2.7878 -1.8776,-2.7878 -1.4791,0 -2.0481,1.08098 -2.8446,1.08098 -0.7966,0 -3.0154,-1.25167 -7.0549,-1.25167 -6.8842,0 -10.6961,3.18608 -10.6961,7.79449 0,4.94978 4.0394,7.68071 11.6064,7.68071 0.7965,0 1.3086,0 1.593,0 4.2102,0 6.2584,0.79652 6.2584,3.64122 0,2.50334 -2.5034,4.32396 -6.5428,4.32396 -3.7551,0 -6.9411,-1.36546 -8.4204,-3.29986 -1.0809,-1.42236 -0.9103,-2.95849 -2.6171,-2.95849 -1.4793,0 -1.9913,0.79651 -1.9913,2.27575 l 0,4.94979 m 37.9001,-30.38144 0,28.44705 -7.6807,0 c -1.5362,0 -2.3326,0.62584 -2.3326,1.93439 0,1.30857 0.7395,1.99129 2.2188,1.99129 l 20.4819,0 c 1.6499,0 2.2758,-0.39825 2.2758,-1.99129 0,-1.36545 -0.6828,-1.93439 -2.1052,-1.93439 l -8.6479,0 0,-31.29176 c 0,-0.68272 -0.512,-1.13788 -1.5929,-1.13788 l -9.16,0 c -1.4793,0 -2.2189,0.68272 -2.2189,1.99129 0,1.42235 0.7965,1.93439 2.6172,1.93439 0.2844,0 0.7965,0.0569 1.4222,0.0569 l 4.7223,0 m 38.1675,28.8453 0.2844,1.70682 c 0.2276,1.19478 0.9104,1.82061 1.9344,1.82061 l 4.3808,0 c 1.4793,0 2.219,-0.68272 2.219,-1.99129 0,-1.64992 -0.9673,-1.93439 -3.2999,-1.93439 l -1.4224,0 0,-12.57361 c 0,-6.71349 -3.2998,-9.84268 -10.4116,-9.84268 -6.2583,0 -10.3547,1.9913 -10.3547,3.9257 0,1.42235 0.8534,2.33266 1.8775,2.33266 2.162,0 4.4377,-2.33266 8.3634,-2.33266 4.267,0 6.2584,1.9913 6.2584,6.25836 0,0.0569 0,0.11378 0,0.17068 -2.2758,-0.56895 -4.4378,-0.85342 -6.5997,-0.85342 -8.2496,0 -12.8581,3.47055 -12.8581,9.21685 0,4.89289 3.6412,8.30654
+              9.2168,8.30654 3.8119,0 7.3963,-1.47926 10.4117,-4.21017 m -0.1707,-8.76169 0,3.01538 c 0,2.50335 -4.5516,5.68942 -9.5583,5.68942 -3.2429,0 -5.4617,-1.8775 -5.4617,-4.32395 0,-3.12917 3.2429,-5.34804 9.1598,-5.34804 2.0483,0 3.9826,0.34136 5.8602,0.96719 m 40.5974,-5.00668 0,-5.17736 c 0,-2.38955 -0.2844,-3.41365 -1.9912,-3.41365 -1.4224,0 -2.162,0.51205 -2.162,1.76372 0,0 0,0.0569 0,0.11378 -3.0723,-1.53614 -5.8601,-2.33266 -8.7617,-2.33266 -7.9652,0 -13.9959,5.8601 -13.9959,13.5408 0,7.6807 5.9738,13.48391 14.0528,13.48391 6.7135,0 12.9718,-4.15327 12.9718,-6.77041 0,-1.13788 -0.7965,-1.93439 -1.9343,-1.93439 -1.4793,0 -2.5603,1.36546 -4.2671,2.50334 -1.9913,1.30857 -4.267,2.04819 -6.486,2.04819 -5.8031,0 -9.5012,-3.8688 -9.5012,-9.38753 0,-5.34804 3.9826,-9.15994 9.7288,-9.15994 3.2999,0 5.917,1.53613 7.6238,4.55152 0.8534,1.53613 1.4224,2.21887 2.6172,2.21887 1.3654,0 2.105,-0.68274 2.105,-2.04819 m 13.6823,6.65661 2.5033,-2.27576 8.2497,8.98927 c -1.4223,0.45515 -2.1619,1.13788 -2.1619,2.16198 0,1.25166 0.7396,1.7637 2.3326,1.7637 l 7.5101,0 c 1.4223,0 2.2188,-0.68272 2.2188,-1.99129 0,-1.42234 -0.6258,-1.99129 -2.2188,-1.99129 l -2.4465,0 -10.4685,-11.37882 4.0395,-3.52744 c 1.9912,-1.70682 3.8688,-2.67402 5.2342,-2.84469 2.162,-0.28447 3.5275,-0.1138 3.5275,-2.0482 0,-1.25167 -0.7396,-1.87751 -2.162,-1.87751 l -7.51,0 c -1.5931,0 -2.3896,0.56895 -2.3896,1.64993 0,0.85341 0.5689,1.47926 1.7637,1.99131 l -8.0221,6.7135 0,-19.91294
+              c 0,-0.68272 -0.512,-1.13788 -1.593,-1.13788 l -5.2911,0 c -1.4793,0 -2.2189,0.68272 -2.2189,1.99129 0,1.82061 1.1948,1.9913 3.755,1.9913 l 1.1379,0 0,28.44705 -1.3086,0 c -2.4464,0 -3.5274,0.22757 -3.5274,1.93439 0,1.30857 0.7965,1.99129 2.2758,1.99129 l 5.1204,0 c 0.9103,0 1.6499,-0.85341 1.6499,-2.44644 l 0,-8.19275 m 39.2454,-3.47054 3.6981,12.63049 c 0.5121,1.70682 1.081,2.44645 2.7309,2.44645 1.3086,0 1.9344,-0.51205 2.3327,-1.8775 l 6.2583,-20.82324 c 1.76376,0 2.38961,-0.51205 2.38961,-1.9913 0,-1.30857 -0.62585,-1.93441 -1.70686,-1.93441 l -7.45315,0 c -1.7637,0 -2.4464,0.34137 -2.4464,1.93441 0,1.64992 0.9103,2.04819 3.243,2.04819 0.5688,0 1.1947,0 1.9343,-0.0569 l -4.6653,16.66996 -3.4705,-11.5495 c -0.5121,-1.70681 -1.0809,-2.44645 -2.7309,-2.44645 -1.3086,0 -1.9345,0.56895 -2.3327,1.87751 l -3.5843,12.11844 -4.7791,-16.66996 c 0.6827,0.0569 1.2516,0.0569 1.8206,0.0569 2.4464,0 3.4136,-0.39827 3.4136,-2.04819 0,-1.64993 -0.7396,-1.93441 -2.5033,-1.93441 l -7.4531,0 c -1.4224,0 -2.1051,0.68274 -2.1051,1.93441 0,1.47925 0.6827,1.9913 2.4465,1.9913 l 6.3721,20.25429 c 0.512,1.70682 1.081,2.44645 2.7308,2.44645 1.2518,0 1.9914,-0.56894 2.3328,-1.8775 l 3.5274,-13.19944 m 38.4585,10.5823 0.28448,1.70682 c 0.22758,1.19478 0.91033,1.82061 1.93445,1.82061 l 4.38086,0 c 1.47918,0 2.21881,-0.68272 2.21881,-1.99129 0,-1.64992 -0.96721,-1.93439 -3.29983,-1.93439 l -1.42238,0 0,-12.57361 c 0,-6.71349 -3.29985,-9.84268 -10.41158,-9.84268
+              -6.25841,0 -10.35478,1.9913 -10.35478,3.9257 0,1.42235 0.85343,2.33266 1.87755,2.33266 2.16193,0 4.43775,-2.33266 8.36344,-2.33266 4.26706,0 6.25831,1.9913 6.25831,6.25836 0,0.0569 0,0.11378 0,0.17068 -2.27572,-0.56895 -4.43776,-0.85342 -6.59969,-0.85342 -8.24965,0 -12.85808,3.47055 -12.85808,9.21685 0,4.89289 3.64121,8.30654 9.21687,8.30654 3.8119,0 7.39621,-1.47926 10.41157,-4.21017 m -0.17067,-8.76169 0,3.01538 c 0,2.50335 -4.55155,5.68942 -9.55816,5.68942 -3.24294,0 -5.46187,-1.8775 -5.46187,-4.32395 0,-3.12917 3.24295,-5.34804 9.15998,-5.34804 2.04814,0 3.98259,0.34136 5.86005,0.96719 m 27.08216,8.36344 0,-11.49262 c 3.6981,-4.21015 6.82726,-6.42903 9.89952,-6.42903 2.16203,0 3.35674,1.70683 4.83602,1.70683 1.1948,0 2.4464,-1.25167 2.4464,-2.61713 0,-2.04819 -2.04814,-3.58434 -5.51866,-3.58434 -4.43775,0 -8.19275,2.16199 -11.66328,6.54283 l 0,-4.72221 c 0,-0.79652 -0.51205,-1.13789 -1.53617,-1.13789 l -6.31521,0 c -1.47928,0 -2.21893,0.62584 -2.21893,1.93441 0,1.42235 0.79655,1.9913 2.6171,1.9913 0.28448,0 0.79654,0 1.42238,0 l 1.87756,0 0,17.80785 -4.89292,0 c -1.53618,0 -2.33271,0.62584 -2.33271,1.93439 0,1.30857 0.79653,1.99129 2.27582,1.99129 l 18.14917,0 c 1.64996,0 2.27582,-0.39825 2.27582,-1.99129 0,-1.36545 -0.68275,-1.93439 -2.10513,-1.93439 l -9.21678,0 m 25.39839,-11.32193 c 1.08091,-4.60841 4.66534,-7.33935 9.55814,-7.33935 4.49465,0 8.02207,2.90161 8.53413,7.33935 l -18.09227,0 m -0.11378,3.64122 18.66121,0 c 3.41364,0
+              4.60845,0 4.60845,-2.61713 0,-6.20145 -5.1774,-12.17534 -13.59774,-12.17534 -8.59091,0 -14.50795,5.51874 -14.50795,13.48391 0,8.30653 5.34809,13.59769 13.9391,13.59769 3.75501,0 7.79448,-0.91031 11.60638,-2.7878 1.64987,-0.79653 2.44641,-1.64995 2.44641,-2.78783 0,-1.02409 -0.85343,-1.82061 -1.93445,-1.82061 -2.5033,0 -6.08762,3.47054 -11.72018,3.47054 -5.74623,0 -9.21676,-3.01539 -9.50123,-8.36343 m 27.52189,-15.69715 c -0.45934,1e-5 -0.88713,0.0824 -1.28336,0.2472 -0.39624,0.16482 -0.75915,0.41202 -1.08875,0.74162 -0.32961,0.32961 -0.57857,0.69604 -0.74688,1.09927 -0.16831,0.39974 -0.25246,0.82753 -0.25246,1.28336 0,0.45235 0.0842,0.87838 0.25246,1.27811 0.16831,0.39623 0.41727,0.75914 0.74688,1.08876 0.3296,0.3296 0.69251,0.57856 1.08875,0.74687 0.39623,0.16481 0.82402,0.24721 1.28336,0.24721 0.46285,0 0.89239,-0.0824 1.28863,-0.24721 0.39973,-0.16831 0.76439,-0.41727 1.09401,-0.74687 0.3261,-0.3261 0.5698,-0.68727 0.7311,-1.0835 0.1648,-0.39623 0.2472,-0.82402 0.2472,-1.28337 0,-0.46635 -0.0824,-0.89764 -0.2472,-1.29388 -0.16481,-0.39973 -0.40852,-0.76265 -0.7311,-1.08875 -0.32962,-0.3296 -0.69428,-0.5768 -1.09401,-0.74162 -0.39624,-0.1648 -0.82578,-0.24719 -1.28863,-0.2472 m 0,-0.54175 c 0.53298,1e-5 1.02915,0.0964 1.4885,0.28928 0.46284,0.19286 0.88536,0.4804 1.26758,0.86259 0.38219,0.38221 0.66797,0.80298 0.85733,1.26232 0.18934,0.45936 0.28401,0.95903 0.28402,1.49901 -1e-5,0.53299 -0.0947,1.02915 -0.28402,1.4885 -0.18936,0.45584
+              -0.47514,0.87485 -0.85733,1.25706 -0.38222,0.3822 -0.80474,0.66974 -1.26758,0.86259 -0.45935,0.19285 -0.95552,0.28928 -1.4885,0.28928 -0.53298,0 -1.0309,-0.0964 -1.49375,-0.28928 -0.45935,-0.19285 -0.88012,-0.48039 -1.26232,-0.86259 -0.3822,-0.38221 -0.66798,-0.80122 -0.85733,-1.25706 -0.18935,-0.45935 -0.28402,-0.95551 -0.28402,-1.4885 0,-0.53998 0.0947,-1.03965 0.28402,-1.49901 0.18935,-0.45934 0.47513,-0.88011 0.85733,-1.26232 0.3822,-0.38219 0.80297,-0.66973 1.26232,-0.86259 0.46285,-0.19285 0.96077,-0.28927 1.49375,-0.28928 m -0.14201,2.17751 -0.64694,0 0,1.45167 0.64694,0 c 0.38571,0 0.65395,-0.0543 0.80474,-0.16305 0.15427,-0.10869 0.23142,-0.29454 0.23143,-0.55753 -1e-5,-0.26648 -0.0772,-0.45407 -0.23143,-0.56278 -0.15429,-0.11221 -0.42254,-0.16831 -0.80474,-0.16831 m 0.0368,-0.54175 c 0.61713,1e-5 1.07824,0.1052 1.3833,0.31558 0.30506,0.20689 0.45759,0.52247 0.45759,0.94674 0,0.30157 -0.0929,0.55053 -0.27876,0.74688 -0.18235,0.19637 -0.44183,0.32435 -0.77843,0.38395 0.0842,0.0281 0.18407,0.11046 0.2998,0.24721 0.11921,0.13325 0.25947,0.32786 0.42077,0.58382 l 0.72058,1.17292 -0.90466,0 -0.6785,-1.09927 c -0.20689,-0.33663 -0.3752,-0.54876 -0.50494,-0.63643 -0.12624,-0.0912 -0.28403,-0.13675 -0.47337,-0.13675 l -0.34714,0 0,1.87245 -0.81525,0 0,-4.3971 1.49901,0"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.00000048pt;marker:none;visibility:visible;display:inline;overflow:visible;"
+         id="slackware_name"
+         inkscape:label="#rect4402" />
+      <g
+         id="slackware_logo"
+         inkscape:label="#g11235"
+         style="">
+        <path
+           style="fill:url(#linearGradient11251);fill-opacity:1;stroke:url(#linearGradient11253);stroke-width:3.82938361;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;"
+           id="path9232"
+           d="m 453.7468,97.45929 c 0,53.96927 -43.75073,97.72 -97.72,97.72 -53.96926,0 -97.72,-43.75073 -97.72,-97.72 0,-53.96927 43.75074,-97.72 97.72,-97.72 53.96927,0 97.72,43.75073 97.72,97.72 z"
+           transform="matrix(1.0445545,0,0,1.0445545,-207.83729,12.964357)" />
+        <path
+           id="path10218"
+           d="m 93,135.40625 0,32.90625 0,2.75 2.75,0 135.59375,0 0,-2.75 -135.59375,0 0,-32.90625 -2.75,0 z"
+           style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter10230);" />
+        <path
+           style="fill:#201b32;fill-opacity:1;stroke:none;"
+           d="m 93,135.40625 0,32.90625 0,2.75 2.75,0 135.59375,0 0,-2.75 -135.59375,0 0,-32.90625 -2.75,0 z"
+           id="rect9234" />
+        <path
+           id="path10220"
+           d="m 114.40006,143.44374 c 0,7.40949 3.35207,10.62796 8.70856,10.75 7.23904,0.16125 8.86983,-2.71842 9.55093,-7.27118 11.68288,4.79752 21.32375,6.38716 31.57316,6.38716 28.41936,0 49.01671,-13.45725 48.52434,-33.5285 -0.48376,-19.7204 -14.64018,-26.7067 -46.14118,-30.00385 -22.24615,-2.32846 -32.34797,-4.4155 -32.18294,-16.84319 0.16125,-12.22422 12.16703,-18.74101 27.30839,-18.74101 11.87978,0 20.55165,1.28311 25.88599,10.02999 5.23229,8.57954 7.14993,11.70604 12.27443,11.70604 5.59084,0 8.33259,-1.32199 8.33259,-8.9704 l -1.04815,-14.83333 c 0,-7.88749 -3.53318,-9.35985 -8.6551,-9.53479 -9.60355,-0.32251 -4.49876,4.54127 -7.75991,4.54127 -3.26157,0 -13.96379,-5.46091 -30.49896,-5.09709 -29.31516,0.64502 -44.27743,18.7063 -43.30991,31.61631 -0.53215,21.5444 22.10166,28.34201 43.31968,29.84832 24.96066,1.7653 34.89625,6.41006 34.89625,18.36082 0,10.51669 -12.02361,19.45525 -30.98117,19.6165 -15.37417,0.1319 -28.01623,-5.25261 -31.97672,-15.31419 -2.72353,-6.9191 -3.32395,-11.13877 -10.31221,-11.13877 -6.05678,0 -8.15309,1.41114 -8.15309,7.62552"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter10234);" />
+        <path
+           style="fill:url(#linearGradient11255);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.0pt;marker:none;visibility:visible;display:inline;overflow:visible;"
+           d="m 114.40006,143.44374 c 0,7.40949 3.35207,10.62796 8.70856,10.75 7.23904,0.16125 8.86983,-2.71842 9.55093,-7.27118 11.68288,4.79752 21.32375,6.38716 31.57316,6.38716 28.41936,0 49.01671,-13.45725 48.52434,-33.5285 -0.48376,-19.7204 -14.64018,-26.7067 -46.14118,-30.00385 -22.24615,-2.32846 -32.34797,-4.4155 -32.18294,-16.84319 0.16125,-12.22422 12.16703,-18.74101 27.30839,-18.74101 11.87978,0 20.55165,1.28311 25.88599,10.02999 5.23229,8.57954 7.14993,11.70604 12.27443,11.70604 5.59084,0 8.33259,-1.32199 8.33259,-8.9704 l -1.04815,-14.83333 c 0,-7.88749 -3.53318,-9.35985 -8.6551,-9.53479 -9.60355,-0.32251 -4.49876,4.54127 -7.75991,4.54127 -3.26157,0 -13.96379,-5.46091 -30.49896,-5.09709 -29.31516,0.64502 -44.27743,18.7063 -43.30991,31.61631 -0.53215,21.5444 22.10166,28.34201 43.31968,29.84832 24.96066,1.7653 34.89625,6.41006 34.89625,18.36082 0,10.51669 -12.02361,19.45525 -30.98117,19.6165 -15.37417,0.1319 -28.01623,-5.25261 -31.97672,-15.31419 -2.72353,-6.9191 -3.32395,-11.13877 -10.31221,-11.13877 -6.05678,0 -8.15309,1.41114 -8.15309,7.62552"
+           id="path9214" />
+      </g>
+    </g>
+  </g>
+</g>
+
+<g inkscape:label='Labels' inkscape:groupmode='layer' id='layer_labels' 
+ style='font-size:14px;stroke:none;fill:#000;font-family:Liberation Sans, Arial, Helvetica;-inkscape-font-specification:Liberation Sans, Arial, Helvetica;' >
+  <rect x='556' y='1134' width='57' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/b/burapha'><text x='558' y='1146'  >Burapha</text></a>
+  <rect x='323' y='78' width='36' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/m/mnis'><text x='325' y='90'  >MNIS</text></a>
+  <rect x='606' y='100' width='67' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/s/stampede'><text x='608' y='112'  >Stampede</text></a>
+  <rect x='864' y='122' width='78' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/v/vectorlinux'><text x='866' y='134'  >VectorLinux</text></a>
+  <rect x='1365' y='144' width='43' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/w/whoppix'><text x='1367' y='156'  >WHAX</text></a>
+  <rect x='1386' y='166' width='59' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/s/slampp'><text x='1388' y='178'  >SLAMPP</text></a>
+  <rect x='1223' y='232' width='67' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/d/dnalinux'><text x='1225' y='244'  >DNALinux</text></a>
+  <rect x='1373' y='210' width='43' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/w/wolvix'><text x='1375' y='222'  >Wolvix</text></a>
+  <rect x='1048' y='188' width='29' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/s/slax'><text x='1050' y='200'  >Slax</text></a>
+  <rect x='1087' y='254' width='42' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/p/plamo'><text x='1089' y='266'  >Plamo</text></a>
+  <rect x='1181' y='276' width='29' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/s/stux'><text x='1183' y='288'  >Stux</text></a>
+    <rect x='1218' y='276' width='38' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href='https://distroware.gitlab.io/os/Linux/s/stux'><text x='1220' y='288' >STUX</text></a>
+  <rect x='1223' y='298' width='79' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/d/darkstar'><text x='1225' y='310'  >DARKSTAR</text></a>
+  <rect x='1253' y='320' width='61' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/z/zenwalk'><text x='1255' y='332'  >Minislack</text></a>
+    <rect x='1374' y='320' width='55' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href='https://distroware.gitlab.io/os/Linux/z/zenwalk'><text x='1376' y='332' >Zenwalk</text></a>
+  <rect x='1266' y='342' width='66' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/s/slack-390'><text x='1268' y='354'  >Slack 390</text></a>
+  <rect x='1292' y='364' width='30' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/k/kateos'><text x='1294' y='376'  >Kate</text></a>
+    <rect x='1347' y='364' width='50' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href='https://distroware.gitlab.io/os/Linux/k/kateos'><text x='1349' y='376' >KateOS</text></a>
+  <rect x='1298' y='386' width='78' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/a/agilia-linux'><text x='1300' y='398'  >MOPSLinux</text></a>
+    <rect x='1843' y='386' width='73' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href='https://distroware.gitlab.io/os/Linux/a/agilia-linux'><text x='1845' y='398' >AgiliaLinux</text></a>
+  <rect x='1320' y='408' width='58' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/s/slamd64'><text x='1322' y='420'  >Slamd64</text></a>
+  <rect x='1365' y='430' width='31' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/p/pqui'><text x='1367' y='442'  >pQui</text></a>
+  <rect x='1449' y='452' width='24' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/r/rip'><text x='1451' y='464'  >RIP</text></a>
+  <rect x='1490' y='474' width='82' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/b/bluewhite64'><text x='1492' y='486'  >Bluewhite64</text></a>
+  <rect x='1511' y='496' width='50' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/w/wifislax'><text x='1513' y='508'  >Wifislax</text></a>
+  <rect x='1552' y='518' width='39' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/d/draco'><text x='1554' y='530'  >Draco</text></a>
+  <rect x='1706' y='540' width='50' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/w/wifiway'><text x='1708' y='552'  >Wifiway</text></a>
+  <rect x='1723' y='562' width='55' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/k/kongoni'><text x='1725' y='574'  >Kongoni</text></a>
+  <rect x='1785' y='584' width='32' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/s/salix'><text x='1787' y='596'  >Salix</text></a>
+  <rect x='1960' y='606' width='48' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/s/slackel'><text x='1962' y='618'  >Slackel</text></a>
+  <rect x='231' y='1156' width='49' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/o/opensuse'><text x='233' y='1168'  >S.u.S.E</text></a>
+  <rect x='1961' y='650' width='51' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/p/porteus'><text x='1963' y='662'  >Porteus</text></a>
+  <rect x='1956' y='672' width='63' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/s/slaxbmc'><text x='1958' y='684'  >SlaXBMC</text></a>
+  <rect x='1738' y='694' width='36' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/l/linvo'><text x='1740' y='706'  >Linvo</text></a>
+  <rect x='1713' y='716' width='76' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/p/platypus'><text x='1715' y='728'  >PLATYPUX</text></a>
+  <rect x='1575' y='738' width='31' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/s/superb-mini-server'><text x='1577' y='750'  >SMS</text></a>
+    <rect x='1856' y='738' width='129' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href='https://distroware.gitlab.io/os/Linux/s/superb-mini-server'><text x='1858' y='750' >Superb Mini Server</text></a>
+  <rect x='2036' y='782' width='36' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/s/sl4p'><text x='2038' y='794'  >SL4P</text></a>
+  <rect x='1519' y='760' width='82' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/s/slackware-arm'><text x='1521' y='772'  >ARMedslack</text></a>
+    <rect x='2077' y='760' width='106' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href='https://distroware.gitlab.io/os/Linux/s/slackware-arm'><text x='2079' y='772' >Slackware ARM</text></a>
+  <rect x='1495' y='804' width='58' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/a/absolute'><text x='1497' y='816'  >Absolute</text></a>
+  <rect x='1456' y='826' width='65' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/v/voltalinux'><text x='1458' y='838'  >Voltalinux</text></a>
+  <rect x='1388' y='848' width='76' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/s/slackintosh'><text x='1390' y='860'  >Slackintosh</text></a>
+  <rect x='1349' y='870' width='56' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/n/netsecl'><text x='1351' y='882'  >NetSecL</text></a>
+  <rect x='1298' y='892' width='75' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/f/frugalware'><text x='1300' y='904'  >Frugalware</text></a>
+  <rect x='1295' y='914' width='56' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/n/nimblex'><text x='1297' y='926'  >NimbleX</text></a>
+  <rect x='1273' y='936' width='54' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/h/hostgis'><text x='1275' y='948'  >HostGIS</text></a>
+  <rect x='1265' y='958' width='52' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/g/goblinx'><text x='1267' y='970'  >GoblinX</text></a>
+    <rect x='1863' y='958' width='68' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href='https://distroware.gitlab.io/os/Linux/g/goblinx'><text x='1865' y='970' >Imagineos</text></a>
+  <rect x='1231' y='980' width='75' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/a/astrumi'><text x='1233' y='992'  >AUSTRUMI</text></a>
+  <rect x='1196' y='1002' width='38' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/k/kwort'><text x='1198' y='1014'  >Kwort</text></a>
+  <rect x='1995' y='1046' width='58' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/d/delicate'><text x='1997' y='1058'  >DeLicate</text></a>
+  <rect x='1098' y='1024' width='31' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://www.delilinux.de/'><text x='1100' y='1036'  >DeLi</text></a>
+    <rect x='1899' y='1024' width='100' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href='https://connochaetos.org/wiki/home'><text x='1901' y='1036' >ConnochaetOS</text></a>
+  <rect x='1079' y='1068' width='89' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/t/topologinux'><text x='1081' y='1080'  >Topologilinux</text></a>
+  <rect x='968' y='1090' width='85' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://github.com/fede2cr/splack_linux'><text x='970' y='1102'  >Splack Linux</text></a>
+  <rect x='841' y='1112' width='27' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/t/tiny'><text x='843' y='1124'  >Tiny</text></a>
+  <rect x='169' y='628' width='69' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/s/slackware'><text x='171' y='640'  >Slackware</text></a>
+  <rect x='56' y='56' width='28' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://distroware.gitlab.io/os/Linux/s/sls'><text x='58' y='68'  >SLS</text></a>
+</g>
+
+<g inkscape:label='Yearlines' inkscape:groupmode='layer' id='layer_yearlines' 
+ style='stroke:none;fill:url(#__yearline);' >
+  <rect x='0' y='0' rx='5' ry='5' width='3220' height='40' />
+  <rect x='0' y='1206' rx='5' ry='5' width='3220' height='40' />
+  <g style='font-size:22px;stroke:none;fill:#fff;font-family:Liberation Sans, Arial, Helvetica;-inkscape-font-specification:Liberation Sans, Arial, Helvetica;text-anchor:middle;' >
+    <text x='60' y='28'><tspan>1992</tspan></text>
+    <text x='60' y='1234'><tspan>1992</tspan></text>
+    <text x='160' y='28'><tspan>1993</tspan></text>
+    <text x='160' y='1234'><tspan>1993</tspan></text>
+    <text x='260' y='28'><tspan>1994</tspan></text>
+    <text x='260' y='1234'><tspan>1994</tspan></text>
+    <text x='360' y='28'><tspan>1995</tspan></text>
+    <text x='360' y='1234'><tspan>1995</tspan></text>
+    <text x='460' y='28'><tspan>1996</tspan></text>
+    <text x='460' y='1234'><tspan>1996</tspan></text>
+    <text x='560' y='28'><tspan>1997</tspan></text>
+    <text x='560' y='1234'><tspan>1997</tspan></text>
+    <text x='660' y='28'><tspan>1998</tspan></text>
+    <text x='660' y='1234'><tspan>1998</tspan></text>
+    <text x='760' y='28'><tspan>1999</tspan></text>
+    <text x='760' y='1234'><tspan>1999</tspan></text>
+    <text x='860' y='28'><tspan>2000</tspan></text>
+    <text x='860' y='1234'><tspan>2000</tspan></text>
+    <text x='960' y='28'><tspan>2001</tspan></text>
+    <text x='960' y='1234'><tspan>2001</tspan></text>
+    <text x='1060' y='28'><tspan>2002</tspan></text>
+    <text x='1060' y='1234'><tspan>2002</tspan></text>
+    <text x='1160' y='28'><tspan>2003</tspan></text>
+    <text x='1160' y='1234'><tspan>2003</tspan></text>
+    <text x='1260' y='28'><tspan>2004</tspan></text>
+    <text x='1260' y='1234'><tspan>2004</tspan></text>
+    <text x='1360' y='28'><tspan>2005</tspan></text>
+    <text x='1360' y='1234'><tspan>2005</tspan></text>
+    <text x='1460' y='28'><tspan>2006</tspan></text>
+    <text x='1460' y='1234'><tspan>2006</tspan></text>
+    <text x='1560' y='28'><tspan>2007</tspan></text>
+    <text x='1560' y='1234'><tspan>2007</tspan></text>
+    <text x='1660' y='28'><tspan>2008</tspan></text>
+    <text x='1660' y='1234'><tspan>2008</tspan></text>
+    <text x='1760' y='28'><tspan>2009</tspan></text>
+    <text x='1760' y='1234'><tspan>2009</tspan></text>
+    <text x='1860' y='28'><tspan>2010</tspan></text>
+    <text x='1860' y='1234'><tspan>2010</tspan></text>
+    <text x='1960' y='28'><tspan>2011</tspan></text>
+    <text x='1960' y='1234'><tspan>2011</tspan></text>
+    <text x='2060' y='28'><tspan>2012</tspan></text>
+    <text x='2060' y='1234'><tspan>2012</tspan></text>
+    <text x='2160' y='28'><tspan>2013</tspan></text>
+    <text x='2160' y='1234'><tspan>2013</tspan></text>
+    <text x='2260' y='28'><tspan>2014</tspan></text>
+    <text x='2260' y='1234'><tspan>2014</tspan></text>
+    <text x='2360' y='28'><tspan>2015</tspan></text>
+    <text x='2360' y='1234'><tspan>2015</tspan></text>
+    <text x='2460' y='28'><tspan>2016</tspan></text>
+    <text x='2460' y='1234'><tspan>2016</tspan></text>
+    <text x='2560' y='28'><tspan>2017</tspan></text>
+    <text x='2560' y='1234'><tspan>2017</tspan></text>
+    <text x='2660' y='28'><tspan>2018</tspan></text>
+    <text x='2660' y='1234'><tspan>2018</tspan></text>
+    <text x='2760' y='28'><tspan>2019</tspan></text>
+    <text x='2760' y='1234'><tspan>2019</tspan></text>
+    <text x='2860' y='28'><tspan>2020</tspan></text>
+    <text x='2860' y='1234'><tspan>2020</tspan></text>
+    <text x='2960' y='28'><tspan>2021</tspan></text>
+    <text x='2960' y='1234'><tspan>2021</tspan></text>
+    <text x='3060' y='28'><tspan>2022</tspan></text>
+    <text x='3060' y='1234'><tspan>2022</tspan></text>
+    <text x='3160' y='28'><tspan>2023</tspan></text>
+    <text x='3160' y='1234'><tspan>2023</tspan></text>
+  </g>
+</g>
+
+<g inkscape:label='Infobox' inkscape:groupmode='layer' id='layer_infobox'
+ style='stroke:none;fill:#000;font-family:Liberation Sans, Arial, Helvetica;-inkscape-font-specification:Liberation Sans, Arial, Helvetica;' >
+  <rect x='2590' y='1250' width='610' height='190' rx='10' ry='10' fill='#000' filter='url(#__infobox_shadow)' opacity='0.6' />
+  <rect x='2590' y='1250' width='610' height='190' rx='10' ry='10' fill='url(#__infobox_fill)' stroke='url(#__infobox_stroke)' stroke-width='2' />
+  <text x='2601' y='1288'><tspan style='font-size:32px;font-weight:bold;'>Linux Distributions Timeline</tspan></text>
+  <text x='2601' y='1311'><tspan style='font-size:16px;'><tspan style='font-weight:bold'>Version 21.10</tspan></tspan></text>
+  <text x='2601' y='1331'><tspan style='font-size:16px;'></tspan></text>
+  <text x='2601' y='1351'><tspan style='font-size:16px;'>© Antonio Roblero Alejandro Jesus</tspan></text>
+  <text x='2601' y='1371'><tspan style='font-size:16px;'>© Muhammad Herdiansyah, Fabio Loli</tspan></text>
+  <text x='2601' y='1391'><tspan style='font-size:16px;'><tspan style='font-weight:bold'>https://github.com/FabioLolix/LinuxTimeline</tspan></tspan></text>
+  <text x='2601' y='1411'><tspan style='font-size:16px;'>Original source: futurist.se/gldt</tspan></text>
+  <text x='2601' y='1431'><tspan style='font-size:16px;'>Published under the GNU Free Documentation License</tspan></text>
+</g>
+
+<!-- BEGIN additional images -->
+
+<g inkscape:label='Included PNG Images' inkscape:groupmode='layer' id='layer_included_png'>
+</g>
+
+<g inkscape:label='Included SVG Images' inkscape:groupmode='layer' id='layer_included_svg'>
+</g>
+
+<!-- END additional images -->
+
+</svg>
