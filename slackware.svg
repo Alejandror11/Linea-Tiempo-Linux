@@ -1097,13 +1097,11 @@ style='opacity:0.6;' >
   <rect x='2590' y='1015' width='610' height='190' rx='10' ry='10' fill='#000' filter='url(#__infobox_shadow)' opacity='0.6' />
   <rect x='2590' y='1015' width='610' height='190' rx='10' ry='10' fill='url(#__infobox_fill)' stroke='url(#__infobox_stroke)' stroke-width='2' />
   <text x='2601' y='1053'><tspan style='font-size:32px;font-weight:bold;'>Linux Distributions Timeline</tspan></text>
-  <text x='2601' y='1076'><tspan style='font-size:16px;'><tspan style='font-weight:bold'>Version 21.10</tspan></tspan></text>
-  <text x='2601' y='1096'><tspan style='font-size:16px;'></tspan></text>
-  <text x='2601' y='1116'><tspan style='font-size:16px;'>© Antonio Roblero Alejandro Jesus</tspan></text>
-  <text x='2601' y='1136'><tspan style='font-size:16px;'>© Muhammad Herdiansyah, Fabio Loli</tspan></text>
-  <text x='2601' y='1156'><tspan style='font-size:16px;'><tspan style='font-weight:bold'>https://github.com/FabioLolix/LinuxTimeline</tspan></tspan></text>
-  <text x='2601' y='1176'><tspan style='font-size:16px;'>Original source: futurist.se/gldt</tspan></text>
-  <text x='2601' y='1196'><tspan style='font-size:16px;'>Published under the GNU Free Documentation License</tspan></text>
+  <text x='2601' y='1076'><tspan style='font-size:16px;'></tspan></text>
+  <text x='2601' y='1096'><tspan style='font-size:16px;'>© Antonio Roblero Alejandro Jesus</tspan></text>
+  <text x='2601' y='1116'><tspan style='font-size:16px;'>© Muhammad Herdiansyah, Fabio Loli</tspan></text>
+  <text x='2601' y='1136'><tspan style='font-size:16px;'>Original source: <tspan style='font-weight:bold'>https://github.com/FabioLolix/LinuxTimeline</tspan></tspan></text>
+  <text x='2601' y='1156'><tspan style='font-size:16px;'>Published under the GNU Free Documentation License</tspan></text>
 </g>
 
 <!-- BEGIN additional images -->
